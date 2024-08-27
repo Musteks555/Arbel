@@ -30,4 +30,8 @@
     .headerLogoImage {
         width: 200px;
     }
+
+    .header {
+        margin-bottom: 64px;
+    }
 }

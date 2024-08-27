@@ -5,12 +5,20 @@ const FooterNavigation = () => {
     const navigationInfo = [
         {
             title: "Help & Customer Care",
-            list: ["Placing an Order", "Shipping & Handling", "Looking for Additional Assistance?", "Wholesale Customers"],
+            list: [
+                { text: "Placing an Order", link: "placing-an-order" },
+                { text: "Shipping & Handling", link: "shipping-handling" },
+                { text: "Looking for Additional Assistance?", link: "additional-assistance" },
+                { text: "Wholesale Customers", link: "wholesale-customers" },
+            ],
         },
 
         {
             title: "About us",
-            list: ["Contacts ", "About us"],
+            list: [
+                { text: "Contacts", link: "contacts" },
+                { text: "About us", link: "about-us" },
+            ],
         },
     ];
 

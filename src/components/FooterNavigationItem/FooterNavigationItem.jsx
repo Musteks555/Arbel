@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import css from "./FooterNavigationItem.module.css";
 
 const FooterNavigationItem = ({ navInfo }) => {
@@ -9,9 +11,9 @@ const FooterNavigationItem = ({ navInfo }) => {
                 {navInfo.list.map((item, index) => {
                     return (
                         <li key={index}>
-                            <a href="" className={css.footerNavigationItemLink}>
-                                {item}
-                            </a>
+                            <Link to={`/${item.link}`} className={css.footerNavigationItemLink}>
+                                {item.text}
+                            </Link>
                         </li>
                     );
                 })}

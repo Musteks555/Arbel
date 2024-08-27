@@ -1,0 +1,18 @@
+.title {
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-bottom: 24px;
+}
+
+.text:last-child {
+    margin-bottom: 0;
+}
+
+.link {
+    color: aquamarine;
+    font-weight: bold;
+
+    margin-left: 8px;
+}

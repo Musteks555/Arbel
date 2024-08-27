@@ -1,0 +1,14 @@
+.title {
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+.itemTitle {
+    margin-bottom: 24px;
+}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FaBasketShopping } from "react-icons/fa6";
 
 import Navigation from "../Navigation/Navigation";
@@ -13,9 +14,9 @@ const Header = () => {
             <DeliveryText />
 
             <div className={css.headerContainer}>
-                <a href="" className={css.headerLogo}>
+                <Link to={"/"} className={css.headerLogo}>
                     <img src={logo} alt="logo" className={css.headerLogoImage} />
-                </a>
+                </Link>
 
                 <a href="" className={css.headerBasket}>
                     <FaBasketShopping className={css.headerBasketIcon} />

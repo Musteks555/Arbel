@@ -1,29 +1,33 @@
-import Header from "../Header/Header";
-import MainDescription from "../MainDescription/MainDescription";
-import ProductCategories from "../ProductCategories/ProductCategories";
-// Bestsellers
-import DeliveryText from "../deliveryText/deliveryText";
-import Footer from "../Footer/Footer";
+import { lazy } from "react";
+import { Navigate, Route, Routes } from "react-router";
 
-// import css from "./App.module.css";
+import Layout from "../Layout/Layout";
+import SharedLayout from "../SharedLayout/SharedLayout";
+
+const Home = lazy(() => import("../../pages/Home/Home"));
+const PlacingAnOrder = lazy(() => import("../../pages/PlacingAnOrder/PlacingAnOrder"));
+const ShippingAndHandling = lazy(() => import("../../pages/ShippingAndHandling/ShippingAndHandling"));
+const AdditionalAssistance = lazy(() => import("../../pages/AdditionalAssistance/AdditionalAssistance"));
+const WholesaleCustomers = lazy(() => import("../../pages/WholesaleCustomers/WholesaleCustomers"));
+const Contacts = lazy(() => import("../../pages/Contacts/Contacts"));
+const AboutUs = lazy(() => import("../../pages/AboutUs/AboutUs"));
 
 function App() {
     return (
-        <>
-            <Header />
-
-            <main>
-                <MainDescription />
-
-                <ProductCategories />
-
-                {/* Bestsellers  */}
-
-                <DeliveryText />
-            </main>
-
-            <Footer />
-        </>
+        <Layout>
+            <SharedLayout>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/placing-an-order" element={<PlacingAnOrder />} />
+                    <Route path="/shipping-handling" element={<ShippingAndHandling />} />
+                    <Route path="/additional-assistance" element={<AdditionalAssistance />} />
+                    <Route path="/wholesale-customers" element={<WholesaleCustomers />} />
+                    <Route path="/contacts" element={<Contacts />} />
+                    <Route path="/about-us" element={<AboutUs />} />
+                    <Route path="*" element={<Navigate to="/" replace />} />
+                </Routes>
+            </SharedLayout>
+        </Layout>
     );
 }
 
