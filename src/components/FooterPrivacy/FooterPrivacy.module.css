@@ -1,0 +1,21 @@
+.FooterPrivacy {
+    margin-top: 32px;
+
+    /* background-color: #555; */
+}
+
+.FooterPrivacyTitle {
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+.FooterPrivacyText {
+    font-size: 12px;
+
+    margin-bottom: 8px;
+}
+
+.FooterPrivacyText:last-child {
+    margin-bottom: 0;
+}

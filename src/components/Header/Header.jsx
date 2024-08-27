@@ -1,6 +1,7 @@
 import { FaBasketShopping } from "react-icons/fa6";
 
 import Navigation from "../Navigation/Navigation";
+import DeliveryText from "../deliveryText/deliveryText";
 
 import logo from "../../images/logo.png";
 
@@ -9,7 +10,7 @@ import css from "./Header.module.css";
 const Header = () => {
     return (
         <header className={css.header}>
-            <p className={css.headerText}>Free standard delivery from $50</p>
+            <DeliveryText />
 
             <div className={css.headerContainer}>
                 <a href="" className={css.headerLogo}>

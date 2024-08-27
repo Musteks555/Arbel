@@ -1,0 +1,36 @@
+.mailClickerContainer {
+}
+
+.mailClickerText {
+    font-size: 16px;
+    margin-bottom: 16px;
+
+    text-align: center;
+}
+
+.mailClickerLink {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    width: fit-content;
+
+    margin: 0 auto;
+
+    background-color: #fff9;
+
+    border: 1px solid #0003;
+    border-radius: 4px;
+
+    color: #000;
+    font-weight: 700;
+
+    padding: 8px 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+}
+
+@media screen and (min-width: 1440px) {
+}

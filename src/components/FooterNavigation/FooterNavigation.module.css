@@ -1,0 +1,21 @@
+.footerNavigation {
+    margin-top: 32px;
+}
+
+.footerNavigationList {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.footerNavigationItem {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    .footerNavigationList {
+        flex-direction: row;
+
+        gap: 100px;
+    }
+}
