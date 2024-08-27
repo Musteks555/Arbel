@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FaBasketShopping } from "react-icons/fa6";
 
 import Navigation from "../Navigation/Navigation";
-import DeliveryText from "../deliveryText/deliveryText";
+import DeliveryText from "../DeliveryText/DeliveryText";
 
 import logo from "../../images/logo.png";
 
