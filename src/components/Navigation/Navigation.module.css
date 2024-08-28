@@ -31,8 +31,6 @@
     font-size: 12px;
 
     flex-shrink: 0;
-
-    padding: 16px 0;
 }
 
 .navigationItemLast ul {
@@ -45,8 +43,45 @@
 
     gap: 4px;
 
+    padding: 16px 0;
+
     font-size: 16px;
     color: #fff;
+
+    text-decoration: none;
+
+    position: relative;
+
+    transition: color 0.4s ease-in-out;
+}
+
+.navigationItemContainer::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: #cceae5;
+
+    transform: scaleX(0);
+    transform-origin: bottom right;
+
+    transition: transform 0.4s ease-in-out;
+}
+
+.navigationItemContainer:hover,
+.navigationItemContainer.active {
+    color: #cceae5;
+}
+
+.navigationItemContainer:hover::after,
+.navigationItemContainer.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 @media screen and (min-width: 768px) {

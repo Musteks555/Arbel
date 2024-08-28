@@ -8,9 +8,15 @@ const DeliveryText = () => {
                 <p className={css.deliveryText}>Free standard delivery from $50</p>
                 <p className={css.deliveryText}>Free standard delivery from $50</p>
                 <p className={css.deliveryText}>Free standard delivery from $50</p>
+                <p className={css.deliveryText}>Free standard delivery from $50</p>
+                <p className={css.deliveryText}>Free standard delivery from $50</p>
+                <p className={css.deliveryText}>Free standard delivery from $50</p>
             </div>
 
             <div className={css.deliverySlide} aria-hidden="true">
+                <p className={css.deliveryText}>Free standard delivery from $50</p>
+                <p className={css.deliveryText}>Free standard delivery from $50</p>
+                <p className={css.deliveryText}>Free standard delivery from $50</p>
                 <p className={css.deliveryText}>Free standard delivery from $50</p>
                 <p className={css.deliveryText}>Free standard delivery from $50</p>
                 <p className={css.deliveryText}>Free standard delivery from $50</p>

@@ -1,4 +1,4 @@
-.NavigationDropdownList {
+.navigationDropdownList {
     display: flex;
     flex-direction: column;
 
@@ -10,7 +10,6 @@
     min-width: 120px;
 
     padding: 16px;
-    margin-top: 16px;
 
     background-color: #f4f4f4;
 
@@ -18,12 +17,12 @@
     border-radius: 8px;
 }
 
-.NavigationDropdownItem {
+.navigationDropdownItem {
 }
 
-.NavigationDropdownLink {
+.navigationDropdownLink {
 }
 
-.NavigationDropdownLink:hover {
+.navigationDropdownLink:hover {
     color: #af961a;
 }

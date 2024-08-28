@@ -68,11 +68,11 @@ const NavigationDropdown = ({ index }) => {
     const selectedGroup = dropdownItems[index];
 
     return (
-        <ul className={css.NavigationDropdownList}>
+        <ul className={css.navigationDropdownList}>
             {selectedGroup?.map((item, itemIndex) => {
                 return (
-                    <li key={itemIndex} className={css.NavigationDropdownItem}>
-                        <Link to={""} className={css.NavigationDropdownLink}>
+                    <li key={itemIndex} className={css.navigationDropdownItem}>
+                        <Link to={""} className={css.navigationDropdownLink}>
                             {item}
                         </Link>
                     </li>

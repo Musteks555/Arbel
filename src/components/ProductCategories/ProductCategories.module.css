@@ -12,6 +12,10 @@
     width: calc((100% - 16px) / 2);
 }
 
+.productCategoriesItem:hover img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
 .productCategoriesLink {
     font-weight: bold;
     text-decoration: underline;
@@ -28,6 +32,8 @@
     border-radius: 25%;
 
     object-fit: cover;
+
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {

@@ -20,9 +20,9 @@ const Navigation = () => {
 
     const navItems = [
         { name: "All products (281)", link: "" },
+        { name: "Vitamins (170)", link: "" },
         { name: "Collagen (42)", link: "" },
         { name: "Hyaluronic Acid (20)", link: "" },
-        { name: "Probiotics (49)", link: "" },
         { name: "Probiotics (49)", link: "" },
     ];
 
@@ -36,12 +36,25 @@ const Navigation = () => {
                         onMouseEnter={() => handleMouseEnter(index)}
                         onMouseLeave={handleMouseLeave}
                     >
-                        <Link to={`/${item.link}`} className={css.navigationItemContainer}>
+                        <Link
+                            to={`/${item.link}`}
+                            className={clsx(css.navigationItemContainer, {
+                                [css.active]: visibleDropdown === index,
+                            })}
+                        >
                             <span>{item.name}</span>
                             <MdOutlineKeyboardArrowDown />
                         </Link>
 
-                        {visibleDropdown === index && <NavigationDropdown index={index} />}
+                        {visibleDropdown === index && (
+                            <div
+                                className={css.navigationDropdownWrapper}
+                                onMouseEnter={() => handleMouseEnter(index)}
+                                onMouseLeave={handleMouseLeave}
+                            >
+                                <NavigationDropdown index={index} />
+                            </div>
+                        )}
                     </li>
                 ))}
             </ul>
