@@ -13,9 +13,9 @@ const Home = () => {
         <>
             <DocumentTitle>Home</DocumentTitle>
 
-            <section className={css.productCategories}>
-                <WholesaleBtn />
+            <WholesaleBtn />
 
+            <section className={css.productCategories}>
                 <Container>
                     <MainDescription />
                     <ProductCategories />
@@ -25,6 +25,8 @@ const Home = () => {
             <section className={css.bestsellers}>
                 <Container>{/* <Bestsellers/> */}</Container>
             </section>
+
+            <WholesaleBtn />
 
             <DeliveryText />
         </>
