@@ -11,7 +11,9 @@ const Navigation = () => {
     const [visibleDropdown, setVisibleDropdown] = useState(null);
 
     const handleMouseEnter = (index) => {
-        setVisibleDropdown(index);
+        if (navItems[index].hasDropdown) {
+            setVisibleDropdown(index);
+        }
     };
 
     const handleMouseLeave = () => {
@@ -20,10 +22,20 @@ const Navigation = () => {
 
     const navItems = [
         { name: "All products (281)", link: "" },
-        { name: "Vitamins (170)", link: "" },
+        { name: "Vitamins (170)", link: "", hasDropdown: true },
         { name: "Collagen (42)", link: "" },
         { name: "Hyaluronic Acid (20)", link: "" },
         { name: "Probiotics (49)", link: "" },
+    ];
+
+    const vitaminsDropdownItems = [
+        "All Vitamins",
+        "A-Vitamins (5)",
+        "B Vitamins & Vitaminoids (31)",
+        "D Vitamins (39)",
+        "E Vitamins (21)",
+        "K Vitamins (29)",
+        "Multivitamins (45)",
     ];
 
     return (
@@ -32,7 +44,7 @@ const Navigation = () => {
                 {navItems.map((item, index) => (
                     <li
                         key={index}
-                        className={clsx(css.navigationItem, { [css.navigationItemLast]: index === navItems.length - 1 })}
+                        className={css.navigationItem}
                         onMouseEnter={() => handleMouseEnter(index)}
                         onMouseLeave={handleMouseLeave}
                     >
@@ -43,18 +55,11 @@ const Navigation = () => {
                             })}
                         >
                             <span>{item.name}</span>
-                            <MdOutlineKeyboardArrowDown />
+
+                            {item.hasDropdown && <MdOutlineKeyboardArrowDown />}
                         </Link>
 
-                        {visibleDropdown === index && (
-                            <div
-                                className={css.navigationDropdownWrapper}
-                                onMouseEnter={() => handleMouseEnter(index)}
-                                onMouseLeave={handleMouseLeave}
-                            >
-                                <NavigationDropdown index={index} />
-                            </div>
-                        )}
+                        {visibleDropdown === index && item.hasDropdown && <NavigationDropdown dropdownItems={vitaminsDropdownItems} />}
                     </li>
                 ))}
             </ul>

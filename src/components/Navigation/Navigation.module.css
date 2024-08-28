@@ -33,10 +33,6 @@
     flex-shrink: 0;
 }
 
-.navigationItemLast ul {
-    right: 0;
-}
-
 .navigationItemContainer {
     display: flex;
     align-items: center;
