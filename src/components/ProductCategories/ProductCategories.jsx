@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import vitaminsImg from "../../images/vitamins.jpeg";
 import probioticsImg from "../../images/probiotics.jpeg";
 import hyaluronicAcidImg from "../../images/hyaluronicAcid.jpeg";
@@ -7,10 +9,10 @@ import css from "./ProductCategories.module.css";
 
 const ProductCategories = () => {
     const productCategories = [
-        { name: "Vitamins", image: vitaminsImg },
-        { name: "Collagen", image: collagenImg },
-        { name: "Hyaluronic Acid", image: hyaluronicAcidImg },
-        { name: "Probiotics", image: probioticsImg },
+        { name: "Vitamins", image: vitaminsImg, link: "vitamins" },
+        { name: "Collagen", image: collagenImg, link: "collagen" },
+        { name: "Hyaluronic Acid", image: hyaluronicAcidImg, link: "hyaluronic-acid" },
+        { name: "Probiotics", image: probioticsImg, link: "probiotics" },
     ];
 
     return (
@@ -18,11 +20,11 @@ const ProductCategories = () => {
             {productCategories.map((category, index) => {
                 return (
                     <li key={index} className={css.productCategoriesItem}>
-                        <a href="" className={css.productCategoriesLink}>
+                        <Link to={`/${category.link}`} className={css.productCategoriesLink}>
                             <img src={category.image} alt={category.name} className={css.productCategoriesLinkImage} />
 
                             {category.name}
-                        </a>
+                        </Link>
                     </li>
                 );
             })}

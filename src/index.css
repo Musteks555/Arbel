@@ -71,7 +71,7 @@ img {
     box-sizing: border-box;
 }
 
-/* *::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 8px;
 }
 
@@ -82,7 +82,7 @@ img {
 
 *::-webkit-scrollbar-track {
     border-radius: 7px;
-} */
+}
 
 html,
 body {
@@ -93,35 +93,4 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: var(--main-white);
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .container {
-        min-width: 320px;
-        max-width: 375px;
-
-        padding: 16px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-    .container {
-        max-width: 768px;
-
-        padding: 32px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-
-        padding: 32px 64px;
-    }
 }

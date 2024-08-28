@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import css from "./NavigationDropdown.module.css";
 
 const NavigationDropdown = ({ index }) => {
@@ -12,7 +14,15 @@ const NavigationDropdown = ({ index }) => {
             "Multivitamins (45)",
         ],
 
-        ["AAA", "BBB", "CCC", "DDD", "EEE", "FFF", "GGG"],
+        [
+            "All Vitamins",
+            "A-Vitamins (5)",
+            "B Vitamins & Vitaminoids (31)",
+            "D Vitamins (39)",
+            "E Vitamins (21)",
+            "K Vitamins (29)",
+            "Multivitamins (45)",
+        ],
 
         [
             "All Vitamins",
@@ -62,9 +72,9 @@ const NavigationDropdown = ({ index }) => {
             {selectedGroup?.map((item, itemIndex) => {
                 return (
                     <li key={itemIndex} className={css.NavigationDropdownItem}>
-                        <a href="#" className={css.NavigationDropdownLink}>
+                        <Link to={""} className={css.NavigationDropdownLink}>
                             {item}
-                        </a>
+                        </Link>
                     </li>
                 );
             })}

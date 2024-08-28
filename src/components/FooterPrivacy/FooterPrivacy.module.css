@@ -1,21 +1,33 @@
-.FooterPrivacy {
+.footerPrivacy {
     margin-top: 32px;
+    padding: 16px 0;
 
-    /* background-color: #555; */
+    background-color: #555;
 }
 
-.FooterPrivacyTitle {
+.footerPrivacyTitle {
     font-weight: bold;
+    color: #ddd;
 
     margin-bottom: 12px;
 }
 
-.FooterPrivacyText {
+.footerPrivacyText {
     font-size: 12px;
+    color: #ddd;
 
     margin-bottom: 8px;
 }
 
-.FooterPrivacyText:last-child {
+.footerPrivacyText:last-child {
     margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .footerPrivacy {
+        padding: 32px 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
 }

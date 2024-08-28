@@ -5,6 +5,7 @@ import clsx from "clsx";
 import NavigationDropdown from "../NavigationDropdown/NavigationDropdown";
 
 import css from "./Navigation.module.css";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
     const [visibleDropdown, setVisibleDropdown] = useState(null);
@@ -17,7 +18,13 @@ const Navigation = () => {
         setVisibleDropdown(null);
     };
 
-    const navItems = ["All products (281)", "Vitamins (170)", "Collagen (42)", "Hyaluronic Acid (20)", "Probiotics (49)", "Wholesale"];
+    const navItems = [
+        { name: "All products (281)", link: "" },
+        { name: "Collagen (42)", link: "" },
+        { name: "Hyaluronic Acid (20)", link: "" },
+        { name: "Probiotics (49)", link: "" },
+        { name: "Probiotics (49)", link: "" },
+    ];
 
     return (
         <nav className={css.navigationContainer}>
@@ -29,9 +36,10 @@ const Navigation = () => {
                         onMouseEnter={() => handleMouseEnter(index)}
                         onMouseLeave={handleMouseLeave}
                     >
-                        <div className={css.navigationItemContainer}>
-                            {item} <MdOutlineKeyboardArrowDown />
-                        </div>
+                        <Link to={`/${item.link}`} className={css.navigationItemContainer}>
+                            <span>{item.name}</span>
+                            <MdOutlineKeyboardArrowDown />
+                        </Link>
 
                         {visibleDropdown === index && <NavigationDropdown index={index} />}
                     </li>

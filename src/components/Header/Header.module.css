@@ -1,7 +1,5 @@
 .header {
-    position: relative;
-
-    margin-bottom: 32px;
+    padding: 0 0 8px;
 }
 
 .headerText {
@@ -26,12 +24,22 @@
     height: 40px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 0 0 16px;
+    }
+
     .headerLogoImage {
         width: 200px;
     }
+}
 
+@media screen and (min-width: 1440px) {
     .header {
-        margin-bottom: 64px;
+        padding: 0 0 32px;
+    }
+
+    .headerLogoImage {
+        width: 250px;
     }
 }
