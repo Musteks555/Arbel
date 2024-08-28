@@ -21,7 +21,7 @@ const Navigation = () => {
     };
 
     const navItems = [
-        { name: "All products (281)", link: "" },
+        { name: "All products (281)", link: "catalog" },
         { name: "Vitamins (170)", link: "", hasDropdown: true },
         { name: "Collagen (42)", link: "" },
         { name: "Hyaluronic Acid (20)", link: "" },

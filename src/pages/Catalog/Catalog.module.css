@@ -1,0 +1,39 @@
+.catalog {
+    padding: 16px 0;
+}
+
+.productCardList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    gap: 32px;
+}
+
+.productCardItem {
+    width: calc((100% - 32px) / 2);
+}
+
+@media screen and (min-width: 768px) {
+    .catalog {
+        padding: 16px 0 32px;
+    }
+
+    .productCardList {
+        gap: 48px;
+    }
+
+    .productCardItem {
+        width: calc((100% - 96px) / 3);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .catalog {
+        padding: 32px 0 64px;
+    }
+
+    .productCardItem {
+        width: calc((100% - 144px) / 4);
+    }
+}

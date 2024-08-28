@@ -1,0 +1,128 @@
+.productCardImage {
+    max-width: 132px;
+    max-height: 132px;
+
+    margin: 0 auto;
+}
+
+.productCardBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    margin-top: -24px;
+
+    border: 2px solid #fff;
+    border-radius: 8px;
+
+    position: relative;
+}
+
+.productCardBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 8px;
+
+    padding: 4px;
+
+    background-color: #082518c9;
+}
+
+.productCardName {
+    font-weight: bold;
+
+    margin: 8px 0;
+}
+
+.productCardAdvantagesList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 4px;
+
+    padding-left: 16px;
+    margin-bottom: 8px;
+
+    list-style: disc;
+}
+
+.productCardAdvantagesItem {
+    color: #666;
+    font-size: 12px;
+}
+
+.productCardPrice {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    .productCardImage {
+        max-width: 216px;
+        max-height: 216px;
+    }
+
+    .productCardBtn {
+        width: 50px;
+        height: 50px;
+
+        margin-top: -32px;
+    }
+
+    .productCardBtnIcon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .productCardName {
+        font-size: 18px;
+    }
+
+    .productCardAdvantagesItem {
+        font-size: 14px;
+    }
+
+    .productCardPrice {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .productCardImage {
+        max-width: 256px;
+        max-height: 256px;
+    }
+
+    .productCardBtn {
+        width: 60px;
+        height: 60px;
+
+        margin-top: -40px;
+    }
+
+    .productCardBtnIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .productCardName {
+        font-size: 20px;
+    }
+
+    .productCardAdvantagesItem {
+        font-size: 16px;
+    }
+
+    .productCardPrice {
+        font-size: 30px;
+    }
+}

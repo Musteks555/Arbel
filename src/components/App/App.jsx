@@ -5,6 +5,7 @@ import Layout from "../Layout/Layout";
 import SharedLayout from "../SharedLayout/SharedLayout";
 
 const Home = lazy(() => import("../../pages/Home/Home"));
+const Catalog = lazy(() => import("../../pages/Catalog/Catalog"));
 const PlacingAnOrder = lazy(() => import("../../pages/PlacingAnOrder/PlacingAnOrder"));
 const ShippingAndHandling = lazy(() => import("../../pages/ShippingAndHandling/ShippingAndHandling"));
 const AdditionalAssistance = lazy(() => import("../../pages/AdditionalAssistance/AdditionalAssistance"));
@@ -18,6 +19,7 @@ function App() {
             <SharedLayout>
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/catalog" element={<Catalog />} />
                     <Route path="/placing-an-order" element={<PlacingAnOrder />} />
                     <Route path="/shipping-handling" element={<ShippingAndHandling />} />
                     <Route path="/additional-assistance" element={<AdditionalAssistance />} />
