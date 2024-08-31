@@ -16,19 +16,23 @@ const ProductCategories = () => {
     ];
 
     return (
-        <ul className={css.productCategoriesList}>
-            {productCategories.map((category, index) => {
-                return (
-                    <li key={index} className={css.productCategoriesItem}>
-                        <Link to={`/${category.link}`} className={css.productCategoriesLink}>
-                            <img src={category.image} alt={category.name} className={css.productCategoriesLinkImage} />
+        <>
+            <h2 className={css.productCategoriesTitle}>Shop by category</h2>
 
-                            {category.name}
-                        </Link>
-                    </li>
-                );
-            })}
-        </ul>
+            <ul className={css.productCategoriesList}>
+                {productCategories.map((category, index) => {
+                    return (
+                        <li key={index} className={css.productCategoriesItem}>
+                            <Link to={`/${category.link}`} className={css.productCategoriesLink}>
+                                <img src={category.image} alt={category.name} className={css.productCategoriesLinkImage} />
+
+                                {category.name}
+                            </Link>
+                        </li>
+                    );
+                })}
+            </ul>
+        </>
     );
 };
 

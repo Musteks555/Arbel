@@ -2,14 +2,26 @@
     padding: 8px 0;
 }
 
+.bestsellers {
+    padding: 8px 0;
+}
+
 @media screen and (min-width: 768px) {
     .productCategories {
+        padding: 16px 0;
+    }
+
+    .bestsellers {
         padding: 16px 0;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .productCategories {
+        padding: 32px 0;
+    }
+
+    .bestsellers {
         padding: 32px 0;
     }
 }

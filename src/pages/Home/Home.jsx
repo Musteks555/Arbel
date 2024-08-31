@@ -3,7 +3,7 @@ import Container from "../../components/Container/Container";
 import WholesaleBtn from "../../components/WholesaleBtn/WholesaleBtn";
 import MainDescription from "../../components/MainDescription/MainDescription";
 import ProductCategories from "../../components/ProductCategories/ProductCategories";
-// Bestsellers
+import Bestsellers from "../../components/Bestsellers/Bestsellers";
 import DeliveryText from "../../components/DeliveryText/DeliveryText";
 
 import css from "./Home.module.css";
@@ -23,7 +23,9 @@ const Home = () => {
             </section>
 
             <section className={css.bestsellers}>
-                <Container>{/* <Bestsellers/> */}</Container>
+                <Container>
+                    <Bestsellers />
+                </Container>
             </section>
 
             <WholesaleBtn />
