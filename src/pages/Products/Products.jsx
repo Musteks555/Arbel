@@ -72,7 +72,13 @@ const Products = ({ page }) => {
     return (
         <>
             <DocumentTitle>{page}</DocumentTitle>
-            <Catalog productArr={productArr} currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+            <Catalog
+                page={page}
+                productArr={productArr}
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+            />
         </>
     );
 };
