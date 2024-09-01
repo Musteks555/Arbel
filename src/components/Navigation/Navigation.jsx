@@ -4,6 +4,11 @@ import clsx from "clsx";
 
 import NavigationDropdown from "../NavigationDropdown/NavigationDropdown";
 
+import VitaminsData from "../../data/vitamins.json";
+import CollagenData from "../../data/collagen.json";
+import HyaluronicAcidData from "../../data/hyaluronic-acid.json";
+import ProbioticsData from "../../data/probiotics.json";
+
 import css from "./Navigation.module.css";
 import { Link } from "react-router-dom";
 
@@ -20,22 +25,28 @@ const Navigation = () => {
         setVisibleDropdown(null);
     };
 
+    const allProductsCount = VitaminsData.length + CollagenData.length + HyaluronicAcidData.length + ProbioticsData.length;
+    const vitaminsCount = VitaminsData.length;
+    const collagenCount = CollagenData.length;
+    const hyaluronicAcidCount = HyaluronicAcidData.length;
+    const probioticsCount = ProbioticsData.length;
+
     const navItems = [
-        { name: "All products (281)", link: "catalog" },
-        { name: "Vitamins (170)", link: "", hasDropdown: true },
-        { name: "Collagen (42)", link: "" },
-        { name: "Hyaluronic Acid (20)", link: "" },
-        { name: "Probiotics (49)", link: "" },
+        { name: `All products (${allProductsCount})`, link: "all-products" },
+        { name: `Vitamins (${vitaminsCount})`, link: "vitamins", hasDropdown: true },
+        { name: `Collagen (${collagenCount})`, link: "collagen" },
+        { name: `Hyaluronic Acid (${hyaluronicAcidCount})`, link: "hyaluronic-acid" },
+        { name: `Probiotics (${probioticsCount})`, link: "probiotics" },
     ];
 
     const vitaminsDropdownItems = [
-        "All Vitamins",
-        "A-Vitamins (5)",
-        "B Vitamins & Vitaminoids (31)",
-        "D Vitamins (39)",
-        "E Vitamins (21)",
-        "K Vitamins (29)",
-        "Multivitamins (45)",
+        { name: `All Vitamins (${vitaminsCount})`, link: "vitamins" },
+        { name: `A-Vitamins (${VitaminsData.filter((item) => item.sub_category === "A").length})`, link: "a-vitamins" },
+        { name: `B Vitamins & Vitaminoids (${VitaminsData.filter((item) => item.sub_category === "B").length})`, link: "b-vitamins" },
+        { name: `D Vitamins (${VitaminsData.filter((item) => item.sub_category === "D").length})`, link: "d-vitamins" },
+        { name: `E Vitamins (${VitaminsData.filter((item) => item.sub_category === "E").length})`, link: "e-vitamins" },
+        { name: `K Vitamins (${VitaminsData.filter((item) => item.sub_category === "K").length})`, link: "k-vitamins" },
+        { name: `Multivitamins (${VitaminsData.filter((item) => item.sub_category === "multivitamin").length})`, link: "multivitamin" },
     ];
 
     return (

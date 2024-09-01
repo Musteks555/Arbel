@@ -1,0 +1,298 @@
+.product {
+    padding: 8px 0;
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+.productGallery {
+    width: 100%;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 16px;
+
+    width: 100%;
+}
+
+.productName {
+    font-weight: 500;
+}
+
+.productPrice {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* Swiper */
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+
+    margin-top: 12px;
+}
+
+:global(.swiper-slide) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    padding: 12px;
+}
+
+:global(.mySwiper .swiper-slide) {
+    padding: 6px;
+
+    border: 2px solid #08251847;
+}
+
+:global(.mySwiper .swiper-slide-thumb-active) {
+    border-color: #082518c9 !important;
+}
+
+.productCertificatesList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.productCertificatesItem {
+    width: auto;
+    max-width: 45px;
+}
+
+.productBtnAdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+
+    color: #fff;
+    font-size: 20px;
+
+    width: 100%;
+
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #082518c9;
+
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productBtnAdd:hover {
+    background-color: #0a3a28;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.productDescriptionContainer {
+    margin-bottom: 16px;
+}
+
+.productSubtitle {
+    font-size: 24px;
+
+    width: 100%;
+
+    border-bottom: 2px solid #08251847;
+
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.productDescriptionText {
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+}
+
+.productDescriptionWarning {
+    color: #444;
+    line-height: 1.5;
+    font-size: 12px;
+
+    width: 100%;
+
+    padding: 16px;
+    margin-top: 16px;
+
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+.productAttributesTable {
+    border-collapse: collapse;
+    border-spacing: 4px;
+    width: 100%;
+
+    margin-top: 24px;
+}
+
+.productAttributesTitle {
+    font-weight: bold;
+    padding: 4px;
+}
+
+.productAttributesText {
+    padding: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    .product {
+        padding: 16px 0;
+    }
+
+    .productContainer {
+        flex-direction: row;
+    }
+
+    .productGallery {
+        width: calc((50% - 16px));
+    }
+
+    .productInfo {
+        width: calc((50% - 16px));
+
+        gap: 24px;
+    }
+
+    .productName {
+        font-size: 32px;
+    }
+
+    .productPrice {
+        font-size: 32px;
+    }
+
+    .productCertificatesList {
+        gap: 16px;
+    }
+
+    .productCertificatesItem {
+        max-width: 50px;
+    }
+
+    .mySwiper {
+        margin-top: 18px;
+    }
+
+    :global(.swiper-slide) {
+        padding: 18px;
+    }
+
+    .productBtnAdd {
+        font-size: 24px;
+    }
+
+    .productBtnAddIcon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .productSubtitle {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .productDescriptionText {
+        font-size: 18px;
+    }
+
+    .productDescriptionWarning {
+        font-size: 14px;
+
+        margin-top: 24px;
+    }
+
+    .productDescriptionContainer {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .product {
+        padding: 32px 0;
+    }
+
+    .productContainer {
+        gap: 64px;
+    }
+
+    .productGallery {
+        width: calc((50% - 32px));
+    }
+
+    .productInfo {
+        width: calc((50% - 32px));
+
+        gap: 32px;
+    }
+
+    .productName {
+        font-size: 42px;
+    }
+
+    .productPrice {
+        font-size: 46px;
+    }
+
+    .productCertificatesList {
+        gap: 24px;
+    }
+
+    .productCertificatesItem {
+        max-width: 60px;
+    }
+
+    .mySwiper {
+        margin-top: 24px;
+    }
+
+    :global(.swiper-slide) {
+        padding: 24px;
+    }
+
+    .productBtnAdd {
+        font-size: 32px;
+    }
+
+    .productBtnAddIcon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .productSubtitle {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .productDescriptionText {
+        font-size: 20px;
+    }
+
+    .productDescriptionWarning {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+    .productDescriptionContainer {
+        margin-bottom: 32px;
+    }
+}

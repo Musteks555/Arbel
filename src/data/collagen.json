@@ -1,5 +1,47 @@
 [
     {
+        "link": "https://www.vitalabo.com/natures-plus/collagen-peptides-1",
+        "uniqueImages": [
+            "https://va.nice-cdn.com/upload/image/product/large/default/61844_bf215c00.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/61845_1807da1a.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/61846_f7825000.1024x1024.jpg"
+        ],
+        "price": 38.64,
+        "productTitle": "Collagen Peptides, 294 g",
+        "features": ["6 different types of collagen", "Sustainably obtained raw materials", "With an enzyme mixture"],
+        "certificates": [
+            {
+                "certificateText": "Gluten-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
+            }
+        ],
+        "description": "Collagen Peptides is made with hydrolysed, predigested collagen from beef, chicken, fish and eggshell protein. The powder also contains an enzyme mix of protease and serrapeptase.\n\n\n\tTypes of collagen included: Type I-II-III-IV-V and X\n\tGrass-fed beef, wild-caught cod, cage-free chicken and eggshell membranes\n\n\nRecommended use:\n\n\n\tDissolve 1 scoop (10.5 g) or 2 scoops (21 g) in water or juice. The powder can be added to cold or hot liquids, or a recipe of your choice.\n\n\nNote:\n\n\n\tCollagen Peptides is made from animal raw materials and is not suitable for vegetarians.",
+        "attributes": [
+            {
+                "name": "Manufacturer",
+                "value": "NaturesPlus"
+            },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Powder"
+            },
+            {
+                "name": "Diets & Dietary Restrictions",
+                "value": "Gluten-Free"
+            },
+            {
+                "name": "Allergens",
+                "value": "Gluten-free"
+            },
+            {
+                "name": "Product Features",
+                "value": "GMO-Free"
+            }
+        ],
+        "category": "collagen",
+        "id": "DS-45961"
+    },
+    {
         "link": "https://www.vitalabo.com/nature-love/collagen-complex-1",
         "uniqueImages": [
             "https://va.nice-cdn.com/upload/image/product/large/default/79067_76b3526d.1024x1024.png",
@@ -45,7 +87,8 @@
                 "value": "Store in a cool, dry place away from light"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "NLO-21001"
     },
     {
         "link": "https://www.vitalabo.com/zeinpharma/collagen-c-relift",
@@ -86,7 +129,8 @@
                 "value": "Made WITHOUT Animal Testing"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "ZP-12733"
     },
     {
         "link": "https://www.vitalabo.com/vertebene/cartilage-complex",
@@ -127,7 +171,8 @@
                 "value": "Yeast-free"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "NPD-N550060DE"
     },
     {
         "link": "https://www.vitalabo.com/pure/collagen-plus-powder",
@@ -176,7 +221,8 @@
                 "value": "Especially for Women"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "PE-HKPA"
     },
     {
         "link": "https://www.vitalabo.com/vitamaze/collagen-1",
@@ -213,7 +259,8 @@
                 "value": "Allergen-Free,     GMO-Free,     No Synthetic Additives"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "VG-VM10098"
     },
     {
         "link": "https://www.vitalabo.com/life-light/collagen-drink",
@@ -250,52 +297,8 @@
                 "value": "Allergen-Free,     No Synthetic Additives"
             }
         ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/igennus/pure-essential-hydrolysed-collagen-peptides",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/79739_1f2668e1.1024x1024.png"],
-        "price": 28.73,
-        "productTitle": "Pure & Essential Hydrolysed Collagen Peptides, 400 g",
-        "features": ["Enzymatically hydrolysed", "100% grass-fed free-range cattle", "10g collagen per serving"],
-        "certificates": [
-            {
-                "certificateText": "Halal",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64865_410e602b.png"
-            },
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "The Pure & Essential Advanced Hydrolysed Collagen Peptides is an enzymatically hydrolysed collagen protein powder.\n\n\n\t100% from certified, grass-fed free-range cattle\n\tThe cattle are subject to regular veterinary monitoring and medical care and are not given any industrial feed, routine antibiotics or steroids\n\tEach batch is fully traceable and is tested for heavy metals while meeting strict purity standards\n\tContains collagen types 1, 2 and 3\n\tHigh bioavailability, purity and good solubility without clumping\n\tCompatible with paleo, keto and kosher diets\n\tOdourless and tasteless\n\tComes in a bag made of a 100% recyclable eco-friendly bag. \n\n\nRecommended use:\n\n\n\tAdd 10 g (1 measuring spoon) to liquid (cold or warm).\n\tCan be added directly to food.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Igennus"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Powder"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Halal,     Kosher"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Shellfish-Free,     Egg-free,     Fish-free,     Peanut-Free,     Soy free,     Lactose-free,     Nut-Free"
-            },
-            {
-                "name": "Product Features",
-                "value": "GMO-Free,     Halal,     Yeast-free,     No Synthetic Additives,     Wheat-Free"
-            }
-        ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "LL-19129"
     },
     {
         "link": "https://www.vitalabo.com/anatis-naturprodukte/pro-collagen-vegan",
@@ -344,7 +347,8 @@
                 "value": "Yeast-free,     No Synthetic Additives,     Vegan,     Vegetarian,     Wheat-Free,     WITHOUT Dye,     NO Added Sugar,     FREE FROM Magnesium Stearate"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "AN-10144"
     },
     {
         "link": "https://www.vitalabo.com/sensilab/undo-collagen-drink",
@@ -364,7 +368,8 @@
                 "value": "Sachet"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "SL-990009"
     },
     {
         "link": "https://www.vitalabo.com/nu3/grass-fed-collagen-powder",
@@ -401,7 +406,8 @@
                 "value": "A - Gluten,     B - Crustaceans,     C - Egg,     D - Fish,     F - Soya beans,     G - Milk,     L - Celery"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "nu3-21394"
     },
     {
         "link": "https://www.vitalabo.com/klaire-labs/joint-revitaliser",
@@ -442,7 +448,8 @@
                 "value": "Phytonutrients"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "CV-K-JRV"
     },
     {
         "link": "https://www.vitalabo.com/allergy-research-group/bioactive-collagen",
@@ -473,11 +480,12 @@
                 "value": "Store in a cool and dry place"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "DS-78350"
     },
     {
         "link": "https://www.vitalabo.com/igennus/pure-essential-vegan-pro-collagen-vanilla",
-        "uniqueImages": [],
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/79918_443074e7.1024x1024.webp"],
         "price": 31.7,
         "productTitle": "Pure & Essential Vegan Pro-Collagen, Vanilla, 500 g",
         "features": ["Vegetable protein powder", "With important amino acids", "500 g = 35 servings of 14 g each"],
@@ -522,7 +530,8 @@
                 "value": "Halal,     No Synthetic Additives,     Vegan,     Vegetarian,     Wheat-Free,     NO Added Sugar"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "Igen-IGN274"
     },
     {
         "link": "https://www.vitalabo.com/biobene/collagen-complex",
@@ -571,7 +580,8 @@
                 "value": "Fructose-Free,     Yeast-free,     Free From Sugar"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "NPD-N092026"
     },
     {
         "link": "https://www.vitalabo.com/medex/collagen-flex-powder",
@@ -604,7 +614,8 @@
                 "value": "Free From Sugar,     Reduced Plastic"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "MEX-32450"
     },
     {
         "link": "https://www.vitalabo.com/pure/chondro-aktiv",
@@ -641,7 +652,8 @@
                 "value": "Gluten-free,     Lactose-free"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "PE-P3AA6A"
     },
     {
         "link": "https://www.vitalabo.com/natural-point/evidol-articolazioni",
@@ -690,7 +702,8 @@
                 "value": "Store in a cool, dry place away from light"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "NAPO-979843012"
     },
     {
         "link": "https://www.vitalabo.com/nu3/collagen-beauty-elixier",
@@ -743,7 +756,8 @@
                 "value": "Store in a cool, dry place away from light"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "nu3-22224"
     },
     {
         "link": "https://www.vitalabo.com/dr-weyrauch/nr-30-constructor-for-humans",
@@ -763,7 +777,8 @@
                 "value": "Capsule"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "XEV-WEY-human-Konstr"
     },
     {
         "link": "https://www.vitalabo.com/medex/collagen-flex-curcumin-capsules",
@@ -783,7 +798,8 @@
                 "value": "Capsule"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "MEX-1058963"
     },
     {
         "link": "https://www.vitalabo.com/optima-naturals/collagene-marino-pro",
@@ -803,7 +819,8 @@
                 "value": "Liquid,     Care & Cosmetics"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "XEC-OTN-CLGPIRO10000"
     },
     {
         "link": "https://www.vitalabo.com/optima-naturals/collagene-marino-beauty-box-in-out",
@@ -823,7 +840,8 @@
                 "value": "Liquid"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "XEC-OTN-CLGBEAUTYBOX"
     },
     {
         "link": "https://www.vitalabo.com/vertebene/intensive-program",
@@ -843,301 +861,8 @@
                 "value": "Capsule,     Oil"
             }
         ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/natures-plus/collagen-peptides-1",
-        "uniqueImages": [
-            "https://va.nice-cdn.com/upload/image/product/large/default/61844_bf215c00.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/61845_1807da1a.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/61846_f7825000.1024x1024.jpg"
-        ],
-        "price": 38.64,
-        "productTitle": "Collagen Peptides, 294 g",
-        "features": ["6 different types of collagen", "Sustainably obtained raw materials", "With an enzyme mixture"],
-        "certificates": [
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            }
-        ],
-        "description": "Collagen Peptides is made with hydrolysed, predigested collagen from beef, chicken, fish and eggshell protein. The powder also contains an enzyme mix of protease and serrapeptase.\n\n\n\tTypes of collagen included: Type I-II-III-IV-V and X\n\tGrass-fed beef, wild-caught cod, cage-free chicken and eggshell membranes\n\n\nRecommended use:\n\n\n\tDissolve 1 scoop (10.5 g) or 2 scoops (21 g) in water or juice. The powder can be added to cold or hot liquids, or a recipe of your choice.\n\n\nNote:\n\n\n\tCollagen Peptides is made from animal raw materials and is not suitable for vegetarians.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "NaturesPlus"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Powder"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Gluten-Free"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "GMO-Free"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/nature-love/collagen-complex-1",
-        "uniqueImages": [
-            "https://va.nice-cdn.com/upload/image/product/large/default/79067_76b3526d.1024x1024.png",
-            "https://va.nice-cdn.com/upload/image/product/large/default/79148_2d399c62.1024x1024.png"
-        ],
-        "price": 18.32,
-        "productTitle": "Collagen Complex, 120 capsules",
-        "features": ["No unnecessary additives", "Easy to swallow", "Enough for 2 months"],
-        "certificates": [
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "Collagen is a protein that provides structure that our bodies produce less and less of as we age. The Collagen Complex by Nature Love cleverly combines hyaluronic acid, biotin, selenium, zinc, vitamin C and silicon – without any unnecessary additives.\n\n\n\tWith 1000 mg collagen hydrolysate and 200 mg sodium hyaluronate.\n\n\nRecommended use:\n\n\n\tTake 2 capsules daily with sufficient liquid and preferably with a meal.\n\tThe pack will last two months if you follow the recommended use. \n\n\nNote:\n\n\n\tNot suitable for pregnant and breastfeeding people, children or adolescents.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Nature Love"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Capsule"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Gluten-Free,     Lactose-Free"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "GMO-Free,     No Synthetic Additives"
-            },
-            {
-                "name": "Storage Advice",
-                "value": "Store in a cool, dry place away from light"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/zeinpharma/collagen-c-relift",
-        "uniqueImages": [
-            "https://va.nice-cdn.com/upload/image/product/large/default/63626_60c9a765.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/64612_62b352ce.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/64613_553b8ac9.1024x1024.jpg"
-        ],
-        "price": 19.81,
-        "productTitle": "Collagen C ReLift, 60 capsules",
-        "features": ["With hyaluronic acid", "Collagen type II", "High bioavailability"],
-        "certificates": [
-            {
-                "certificateText": "Made WITHOUT Animal Testing",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/61717_25c8936f.jpg"
-            },
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            }
-        ],
-        "description": "The Collagen C ReLift capsules contain a patented BioCell Collagen® formula. Contained in 2 capsules are the following amounts of collagen type ll, hyaluronic acid and chondroitin:\n\n\n\t65% hydrolysed collagen\n\t20% chondroitin sulfate and\n\t10% hyaluronic acid\n\n\nRecommended use:\n\n\n\tTake 2 capsules daily with sufficient liquid.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "ZeinPharma"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Capsule"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Soy free"
-            },
-            {
-                "name": "Product Features",
-                "value": "Made WITHOUT Animal Testing"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/vertebene/cartilage-complex",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/73580_ecf9a159.1024x1024.jpg"],
-        "price": 56.97,
-        "productTitle": "Cartilage Complex, 120 capsules",
-        "features": ["Valuable combination", "Developed by experts", "Patented active composition"],
-        "certificates": [
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "In addition to high-quality collagen, the Cartilage Complex capsules by verteben also contain vitamin C, hyaluronic acid, glucosamine and bamboo extract.\n\n\n\tThe product was developed by experts, is patented and has a unique  composition.\n\n\nRecommended use:\n\n\n\tDuring the first two weeks, the manufacturer recommends taking 2 capsules twice a day with some liquid, preferably with a main meal.\n\tAfter the first two weeks, take 1 to 2 capsules a day over a longer period of time.\n\tThe manufacturer also recommends taking the supplement over a period of at least 3 months.\n\n\nPlease note:\n\n\n\tIf necessary, the capsules can also be opened and the contents mixed with other foods.\n\tPeople who are pregnant or breastfeeding, children and people taking coumarin anticoagulants should only take vertebene® Cartilage Complex after consulting a doctor or pharmacist.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "vertebene"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Capsule"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Gluten-Free,     Lactose-Free"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "Yeast-free"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/pure/collagen-plus-powder",
-        "uniqueImages": [
-            "https://va.nice-cdn.com/upload/image/product/large/default/60986_25573011.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/60984_e3157dfb.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/60985_b14a9f81.1024x1024.jpg"
-        ],
-        "price": 66.38,
-        "productTitle": "Collagen Plus, 140 g",
-        "features": ["Collagen hydrolysate from beef", "With vitamin C, zinc and copper", "No transfat or hydrogenised fat"],
-        "certificates": [
-            {
-                "certificateText": "Fructose-Free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64863_a4be81ac.png"
-            },
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "Hyaluronic acid is an endogenous compound and has a high water binding capacity. 1 g of hyaluronic acid can bind up to 1 litre of water. The new formula contains ceramide from peaches\n\nRecommended use:\n\n\n\tDissolve 1 measuring spoon (1.4 g) in 150 ml of liquid. Drink 2 times a day. Stir briefly and drink as soon as the powder has dissolved.\n\n\nPlease note:\n\n\n\tThe turquoise blue little balls are copper in the form of copper gluconate. Copper gluconate naturally has a blue colour.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Pure Encapsulations"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Powder"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "Fructose-Free"
-            },
-            {
-                "name": "For Whom",
-                "value": "Especially for Women"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/vitamaze/collagen-1",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/59662_a1005f8c.1024x1024.jpg"],
-        "price": 18.82,
-        "productTitle": "Collagen, 60 capsules",
-        "features": ["Combination preparation", "Additionally with chondroitin & lysine", "Without release agent magnesium stearate"],
-        "certificates": [
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "High-dose collagen and high-dose hyaluronic acid are combined with chondroitin and the amino acid L-lysine in these capsules. \n\n\n\tCollagen contains many amino acids and is sourced from France for this product.\n\tHyaluronic acid binds a lot of water.\n\tChondroitin is a component of cartilage, bones and connective tissue.\n\tThe essential amino acid lysine is involved in building collagen.\n\n\nThe capsules are made in Vitamaze quality and are produced exclusively in Germany according to the HACCP concept. The capsules are free from genetically modified ingredients, pesticides, fungicides, artificial fertilizers and other harmful substances.\n\nRecommended use: \n\n\n\tTake 2 capsules daily with 1-2 glasses of water (300-400 ml).\n\n\nNotes: \n\n\n\tNot suitable for children or teens.\n\tConsult a doctor before consuming food supplements during pregnancy or while breastfeeding.\n\tThere is a risk of suffocation for consumers who have difficulty swallowing or who do not drink enough water.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Vitamaze"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Capsule"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "Allergen-Free,     GMO-Free,     No Synthetic Additives"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/life-light/collagen-drink",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/15764_9e5fce8e.1024x1024.jpg"],
-        "price": 31.7,
-        "productTitle": "Collagen Drink, 300 g",
-        "features": ["Flavored collagen hydrolyzate", "With collagen protein and vitamins", "With trace elements and caviar extract"],
-        "certificates": [
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "This collagen drink by Life Light contains high-quality fish collagen supplying the body with all the essential and nonessential amino acids. In addition, it was enriched with 10 vitamins and 5 minerals. The extra plus supplements contains caviar extract for a healthy appearance without having to use a luxury cream.\n\nFlavour: Black currant\n\nRecommended use:\n\n\n\tStir 2 scoops (10g powder) daily into 100-200 ml of water and drink.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Life Light"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Powder"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "Allergen-Free,     No Synthetic Additives"
-            }
-        ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "NPD-N550300"
     },
     {
         "link": "https://www.vitalabo.com/igennus/pure-essential-hydrolysed-collagen-peptides",
@@ -1182,11 +907,165 @@
                 "value": "GMO-Free,     Halal,     Yeast-free,     No Synthetic Additives,     Wheat-Free"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "Igen-IGN211"
     },
     {
-        "link": "https://www.vitalabo.com/anatis-naturprodukte/pro-collagen-vegan",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/91093_9761c577.1024x1024.png"],
+        "link": "https://www.vitalabo.com/igennus/pure-essential-vegan-pro-collagen",
+        "uniqueImages": [
+            "https://va.nice-cdn.com/upload/image/product/large/default/89227_b514a805.1024x1024.png",
+            "https://va.nice-cdn.com/upload/image/product/large/default/89166_e8633998.1024x1024.png"
+        ],
+        "price": 31.7,
+        "productTitle": "Pure & Essential Vegan Pro-Collagen, 500 g",
+        "features": ["Made from brown rice & peas", "Made with pumpkin & sunflower seeds", "With vitamin C"],
+        "certificates": [
+            {
+                "certificateText": "Vegan",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/62227_4a50dac1.png"
+            },
+            {
+                "certificateText": "Vegetarian",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/65394_6e4dc618.png"
+            },
+            {
+                "certificateText": "Gluten-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
+            },
+            {
+                "certificateText": "Lactose-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
+            }
+        ],
+        "description": "German packaging: Pure & Essential Vegan Pro-Collagen\n\nThe Pure & Essential Advanced Vegan Pro-Collagen is a unique protein powder made from brown rice, peas, pumpkin and sunflower seeds. It offers an ideal ratio of the main amino acids hydroxyproline, proline and glycerine (1: 1: 2). The vegan powder has been enriched with the collagen cofactor vitamin C.\n\nRecommended use:\n\n\n\tMix 14 g (1 measuring spoon) in sufficient liquid.\n\tCan be added directly to food.",
+        "attributes": [
+            {
+                "name": "Manufacturer",
+                "value": "Igennus"
+            },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Powder"
+            },
+            {
+                "name": "Allergens",
+                "value": "Gluten-free,     Peanut-Free,     Soy free,     Lactose-free"
+            },
+            {
+                "name": "Product Features",
+                "value": "GMO-Free,     No Synthetic Additives,     Vegan,     Vegetarian"
+            }
+        ],
+        "category": "collagen",
+        "id": "Igen-IGN213"
+    },
+    {
+        "link": "https://www.vitalabo.com/fleurance-nature/gluco-chondro-strong-tablets",
+        "uniqueImages": [
+            "https://va.nice-cdn.com/upload/image/product/large/default/65340_6b061f98.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/65339_34afe1e7.1024x1024.jpg"
+        ],
+        "price": 14.75,
+        "productTitle": "Gluco Chondro STRONG Tablets, 45 tablets",
+        "features": ["Natural ingredients", "Of marine origin", "With vitamin C & copper"],
+        "certificates": [
+            {
+                "certificateText": "Made WITHOUT Animal Testing",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/61717_25c8936f.jpg"
+            }
+        ],
+        "description": "These tablets contain an innovative formulation of glucosamine and chondroitin obtained from the shells of crustaceans and from the cartilage of wild fish. The formulation is refined with vitamin C, copper and devil's claw (Harpagophytum procumbens). Practical and easy in everyday life.\n\nRecommended dose:\n\n\n\tTake 3 tablets once a day with breakfast with a large glass of water.\n\tIt is recommended to take the tablets for 1 month.\n\n\nNote:\n\n\n\tNot recommended for pregnant or breastfeeding women.\n\tNot recommended for children and adolescents under 15 years of age.\n\tNot recommended if you have stomach or duodenal ulcers and gallstones.\n\tContains traces of iodine.\n\tNot recommended for people with diabetes, prediabetic, asthma, and anticoagulants.\n\tNot recommended for people allergic to shellfish.",
+        "attributes": [
+            {
+                "name": "Manufacturer",
+                "value": "Fleurance Nature"
+            },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Tablet"
+            },
+            {
+                "name": "Product Features",
+                "value": "Made WITHOUT Animal Testing"
+            }
+        ],
+        "category": "collagen",
+        "id": "XEC-FLE-59316"
+    },
+    {
+        "link": "https://www.vitalabo.com/purasana/collagen-2",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/78302_3437d629.1024x1024.jpg"],
+        "price": 29.72,
+        "productTitle": "Feel Beautiful Collagen, 250 g",
+        "features": ["With vitamin C, B8 & B3", "Watermelon flavour", "GMO & gluten-free"],
+        "certificates": [
+            {
+                "certificateText": "Gluten-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
+            },
+            {
+                "certificateText": "Lactose-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
+            }
+        ],
+        "description": "This collagen powder scores extra points with its refreshing watermelon taste. It contains vitamins B and C. The easy-to-use, gluten-free powder can be added to drinks or shakes.\n\nRecommended use:\n\n\n\tWe recommend adding one to two teaspoons (approx. 10 g) of Purasana Collagen to a glass of water, juice or smoothie\n\n\nPlease note:\n\n\n\tThe collagen contained in the watermelon flavour comes from beef.",
+        "attributes": [
+            {
+                "name": "Manufacturer",
+                "value": "Purasana"
+            },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Powder"
+            },
+            {
+                "name": "Exercise Goals",
+                "value": "Well-being"
+            },
+            {
+                "name": "Vitamins",
+                "value": "Multivitamins"
+            },
+            {
+                "name": "Diets & Dietary Restrictions",
+                "value": "Gluten-Free,     Lactose-Free"
+            },
+            {
+                "name": "Allergens",
+                "value": "Gluten-free,     Soy free,     Lactose-free"
+            },
+            {
+                "name": "Product Features",
+                "value": "Allergen-Free"
+            }
+        ],
+        "category": "collagen",
+        "id": "PU-PURACOL1"
+    },
+    {
+        "link": "https://www.vitalabo.com/goprimal/longevity-joint-care-collagen",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/61778_0018437b.1024x1024.jpg"],
+        "price": 25.75,
+        "productTitle": "Longevity & Joint Care Collagen, 250 g",
+        "features": ["Unflavoured", "Optimised with vitamin C", "Easy to use"],
+        "certificates": [],
+        "description": "Hydrolyzed collagen is the most abundant protein in the human body and makes up 70-95% of the cartilage structure. GoPrimal uses the adequately split form of collagen with valuable vitamin C. The combination is completely tasteless and can be added to any cold or hot drink.\n\nRecommended use:\n\n\n\tSimply add 10 g of powder to 200 ml water, coffee or any other beverage and stir.\n\n\nNote:\n\n\n\tIf you are pregnant or are planning a pregnancy, please consult your doctor before use.\n\tIf you are taking medication, please consult your doctor before taking this supplement.",
+        "attributes": [
+            {
+                "name": "Manufacturer",
+                "value": "GoPrimal"
+            },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Powder"
+            }
+        ],
+        "category": "collagen",
+        "id": "FR-GPCOL"
+    },
+    {
+        "link": "https://www.vitalabo.com/dr-ehrenberger/pro-collagen-vegan-1",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/91092_d202fff3.1024x1024.png"],
         "price": 39.63,
         "productTitle": "Pro Collagen Vegan, 360 g",
         "features": ["60 sachets of 6 g each", "With L-lysine, glycine and L-proline", "Vitamin C and Tremella mushroom"],
@@ -1208,11 +1087,11 @@
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
             }
         ],
-        "description": "Collagen of animal origin is obtained from cattle farming that is massively damaging to the environment. To avoid collagen of animal origin, anatis has developed the Pro Collagen Vegan, a sophisticated formulation of carefully selected nutrients. The vegan amino acids L-lysine, glycine and L-proline are the basic ingredients and are optimised with natural vitamin C from acerola and Tremella mushroom. Furthermore, it contains oat drink powder and can be mixed into a drink with a pleasant taste.\n\n\n\tContents 360 g = 60 sachets of 6 g each\n\n\nPreparation:\nPour the contents of 1 sachet into a glass. Add cold to lukewarm water and stir. Do not use hot water as heat can cause the ingredients to degrade.\n\nRecommended consumption:\n1 sachet twice per day after meals.\nAt the recommended dosage, 1 pack contains a sufficient supply for 1 month.",
+        "description": "Collagen of animal origin is obtained from cattle farming that is massively damaging to the environment. To avoid collagen of animal origin, Dr. Ehrenberger has developed the Pro Collagen Vegan, a sophisticated formulation of carefully selected nutrients. The vegan amino acids L-lysine, glycine and L-proline are the basic ingredients and are optimised with natural vitamin C from acerola and Tremella mushroom. Furthermore, it contains oat drink powder and can be mixed into a drink with a pleasant taste.\n\n\n\tContents: 360 g = 60 sachets of 6 g each\n\n\nPreparation: \nPour the powder into a glass, add cold to lukewarm water and stir. Do not use hot water as heat can cause the ingredients to degrade.\n\nRecommended intake:\n1 sachet twice per day after meals.\nAt the recommended dose, one pack (60 sachets) contains a sufficient supply for 1 month.",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "anatis Naturprodukte"
+                "value": "Dr. Ehrenberger Organic & Natural Products"
             },
             {
                 "name": "Pharmaceutical form",
@@ -1224,48 +1103,33 @@
             },
             {
                 "name": "Allergens",
-                "value": "Gluten-free,     Egg-free,     Soy free,     Lactose-free"
+                "value": "Gluten-free,     Egg-free,     Lactose-free"
             },
             {
                 "name": "Product Features",
                 "value": "Yeast-free,     No Synthetic Additives,     Vegan,     Vegetarian,     Wheat-Free,     WITHOUT Dye,     NO Added Sugar,     FREE FROM Magnesium Stearate"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "AN-D1710"
     },
     {
-        "link": "https://www.vitalabo.com/sensilab/undo-collagen-drink",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/33105_621a0341.1024x1024.jpg"],
-        "price": 25.26,
-        "productTitle": "UNDO Collagen Drink, 15 packages",
-        "features": ["Smoothes wrinkles", "Clinically confirmed", "Practical for travelling"],
-        "certificates": [],
-        "description": "The UNDO Collagen drink contains Naticol® (a natural source of Type I fish collagen peptides), blueberry extract (a natural source of anthocyanins) and vitamin C.\n\nRecommended use:\n\n\n\tAfter the meal, dissolve 1 sachet per day in a glass of water and drink.\n\n\nPlease note: this product is not recommended for pregnant or nursing women.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Sensilab"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Sachet"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/nu3/grass-fed-collagen-powder",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/99420_3beb6a82.1024x1024.png"],
-        "price": 23.77,
-        "productTitle": "Grass-fed Collagen Powder, 400 g",
-        "features": ["From grass-fed cattle", "Without any additives", "Very good solubility"],
+        "link": "https://www.vitalabo.com/nu3/hydrolized-collagen-powder",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/99417_9126a812.1024x1024.png"],
+        "price": 16.34,
+        "productTitle": "Hydrolized Collagen Powder, 320 g",
+        "features": ["Hydrolysed", "Easily soluble", "Without additives"],
         "certificates": [
             {
                 "certificateText": "Free From Sugar",
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/62229_dc319699.png"
+            },
+            {
+                "certificateText": "Lactose-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
             }
         ],
-        "description": "The Grass-fed Collagen Powder by nu3 stands out from others because it is obtained from cattle that are fed with grass or hay all year round. nu3 sources the collagen from European pasture-fed cattle to avoid long transport routes. The powder contains collagen types I - V and is a high-quality source of protein. Gentle extraction using enzymes ensures that it dissolves easily in cold and warm liquids and does not gel. It is free from additives such as flavours, sweeteners, colours and preservatives and is tasteless and odourless.\n\nRecommended use: 10 g daily. Stir into shakes, smoothies or juice and enjoy.",
+        "description": "This pure collagen hydrolysate is gently processed and contains no additives. It has a neutral flavour, is heat-stable and dissolves well so you can easily mix it into food or drinks. The collagen hydrolysate by nu3 is perfect for your daily portion of collagen protein.\n\nRecommended intake: 10 g per day. Stir into shakes, smoothies or juice and enjoy.",
         "attributes": [
             {
                 "name": "Manufacturer",
@@ -1277,7 +1141,11 @@
             },
             {
                 "name": "Diets & Dietary Restrictions",
-                "value": "Sugar-Free"
+                "value": "Sugar-Free,     Lactose-Free"
+            },
+            {
+                "name": "Allergens",
+                "value": "Lactose-free"
             },
             {
                 "name": "Product Features",
@@ -1285,17 +1153,18 @@
             },
             {
                 "name": "May contain traces of",
-                "value": "A - Gluten,     B - Crustaceans,     C - Egg,     D - Fish,     F - Soya beans,     G - Milk,     L - Celery"
+                "value": "A - Gluten,     C - Egg,     F - Soya beans,     G - Milk"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "nu3-19809"
     },
     {
-        "link": "https://www.vitalabo.com/klaire-labs/joint-revitaliser",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/63966_4c89566f.1024x1024.jpg"],
-        "price": 59.44,
-        "productTitle": "Joint Revitaliser™, 120 veg. capsules",
-        "features": ["High-quality BioCell Collagen®", "Yeast-free formulation", "With OptiMSM® & Vitamin C"],
+        "link": "https://www.vitalabo.com/optima-naturals/collagene-marino-1",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/24198_12128259.1024x1024.jpg"],
+        "price": 24.76,
+        "productTitle": "Collagene Marino, 60 capsules",
+        "features": ["Pure, hydrolyzed marine collagen", "Collagenhydrolate from fish"],
         "certificates": [
             {
                 "certificateText": "Gluten-free",
@@ -1306,11 +1175,11 @@
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
             }
         ],
-        "description": "These capsules are made of hydrolyzed collagen, which is carefully combined with other ingredients such as vitamin C and OptiMSM® in a special process. Practically dosed also ideal for on the go.\n\nConsumption recommendation:\nTake 1 capsule twice a day or as directed by a doctor\n\nNote:\n\nConsult a doctor before use during pregnancy, breastfeeding or taking medication.",
+        "description": "Collagen from marine fish is rich in protein and omega-3 fatty acids.\n\nRecommended use:\n\n\n\tTake 1-2 capsules daily with plenty of fluid. Take preferably with meals.",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "Klaire Labs"
+                "value": "Optima Naturals"
             },
             {
                 "name": "Pharmaceutical form",
@@ -1318,61 +1187,129 @@
             },
             {
                 "name": "Allergens",
-                "value": "Gluten-free,     Shellfish-Free,     Egg-free,     Fish-free,     Peanut-Free,     Soy free,     Lactose-free"
+                "value": "Gluten-free,     Lactose-free"
             },
             {
-                "name": "Product Features",
-                "value": "Yeast-free,     No Synthetic Additives,     Wheat-Free"
-            },
-            {
-                "name": "Other Nutrients",
-                "value": "Phytonutrients"
+                "name": "Optima",
+                "value": "Colours of Life"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "XEC-OTN-NVI11027"
     },
     {
-        "link": "https://www.vitalabo.com/allergy-research-group/bioactive-collagen",
+        "link": "https://www.vitalabo.com/your-super/plant-collagen-organic",
         "uniqueImages": [
-            "https://va.nice-cdn.com/upload/image/product/large/default/88537_e5551def.1024x1024.png",
-            "https://va.nice-cdn.com/upload/image/product/large/default/88622_7fd27880.1024x1024.png"
+            "https://va.nice-cdn.com/upload/image/product/large/default/67992_c420f51e.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/67993_7fcc79df.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/67994_ec1faeda.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/67995_4d7cee3e.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/67996_fe537658.1024x1024.jpg"
         ],
-        "price": 59.44,
-        "productTitle": "Bioactive Collagen, 500 g",
-        "features": ["Hydrolysed bovine collagen", "Very low molecular mass", "Practical powder form"],
-        "certificates": [],
-        "description": "Collagen is one of the body's structural proteins. Bioactive Collagen is a collagen supplement derived from hydrolysed bovine collagen source from cattle in Germany.\n\nIt has a very low molecular mass and each serving provides free amino acids and small peptides.\nThe practical powder makes it easy to take as it can be stirred into both hot and cold drinks.\n\nRecommended use:\nStir 2 level measuring spoons of the powder into 240 ml of water, juice or smoothie once a day day and drink.",
+        "price": 24.76,
+        "productTitle": "Plant Collagen, Organic, 120 g",
+        "features": ["Superfood mix", "With aloe vera", "Purely vegetable"],
+        "certificates": [
+            {
+                "certificateText": "Certified organic",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64862_091b3e56.png"
+            },
+            {
+                "certificateText": "Vegan",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/62227_4a50dac1.png"
+            },
+            {
+                "certificateText": "Vegetarian",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/65394_6e4dc618.png"
+            },
+            {
+                "certificateText": "Gluten-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
+            }
+        ],
+        "description": "This purely vegetable powder contains many vitamins. It consists of the following ingredients:\n\n\n\tRice bran: It is obtained in Thailand.\n\tPea protein: The protein from peas contains 9 essential amino acids.\n\tTremella: This mushroom contains antioxidants.\n\tLucuma: This versatile fruit impresses with a particularly large number of nutrients such as vitamin C, zinc and fibre.\n\tVanilla: The vanilla powder is obtained from Madagascar. It contains many vitamins and minerals.\n\tAloe Vera: A succulent plant extracted in China that contains many amino acids.\n\n\nUse:\nAdd 2 teaspoons of Plant Collagen to smoothies, oatmeals and lattes.\n\nRecipe idea: Glowing Skin Smoothie\n\n\n\t2 tsp Plant Collagen Mix\n\t1 tsp Forever Beautiful Mix\n\t3-4 pitted dates\n\t250 ml of water or plant-based milk\n\t50 g frozen blueberries\n\t2 tbsp almond butter\n\tIce cubes\n\n\n\n\tPut all ingredients in a blender and mix until creamy.\n\tPour into a glass and enjoy!",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "Allergy Research Group"
+                "value": "Your Super®"
             },
             {
                 "name": "Pharmaceutical form",
                 "value": "Powder"
             },
             {
-                "name": "General Information",
-                "value": "Not suitable for children"
+                "name": "Diets & Dietary Restrictions",
+                "value": "Gluten-Free"
             },
             {
-                "name": "Storage Advice",
-                "value": "Store in a cool and dry place"
+                "name": "Allergens",
+                "value": "Gluten-free"
+            },
+            {
+                "name": "Product Features",
+                "value": "Certified organic,     No Synthetic Additives,     Vegan,     Vegetarian"
+            },
+            {
+                "name": "Ayurvedic Products",
+                "value": "Superfoods"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "YS-64111"
     },
     {
-        "link": "https://www.vitalabo.com/igennus/pure-essential-vegan-pro-collagen-vanilla",
-        "uniqueImages": [],
-        "price": 31.7,
-        "productTitle": "Pure & Essential Vegan Pro-Collagen, Vanilla, 500 g",
-        "features": ["Vegetable protein powder", "With important amino acids", "500 g = 35 servings of 14 g each"],
-        "certificates": [
+        "link": "https://www.vitalabo.com/futunatura/marine-collagen-500mg",
+        "uniqueImages": [
+            "https://va.nice-cdn.com/upload/image/product/large/default/87711_3e5209c5.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/87713_c55c2b45.1024x1024.jpg",
+            "https://va.nice-cdn.com/upload/image/product/large/default/87712_bf57b37a.1024x1024.jpg"
+        ],
+        "price": 25.26,
+        "productTitle": "Marine Collagen 500mg, 90 capsules",
+        "features": ["Skin, hair & nails", "Hydrolysed collagen from fish", "Enriched with vitamin C"],
+        "certificates": [],
+        "description": "Collagen is the most abundant protein in the human body, makes up 25% of body structure and is a component of all ligaments, cartilage, skin, hair and nails. From the age of 20, the process of collagen formation in the body slows down.\n\n\n\tHydrolyzed type I collagen and is obtained from fish scales\n\tMarine collagen works great in combination with vitamin C\n\n\nConsumption recommendation:\nTake 2 capsules daily before a meal with plenty of liquid.",
+        "attributes": [
             {
-                "certificateText": "Halal",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64865_410e602b.png"
+                "name": "Manufacturer",
+                "value": "FutuNatura"
             },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Capsule"
+            }
+        ],
+        "category": "collagen",
+        "id": "NARA-FN125"
+    },
+    {
+        "link": "https://www.vitalabo.com/ironmaxx/collagen-powder-zero",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/38867_ba45ea1b.1024x1024.jpg"],
+        "price": 17.83,
+        "productTitle": "Collagen Powder Zero, Tropical (250 g)",
+        "features": ["High-quality amino acids", "Easily soluble powder", "Various flavours"],
+        "certificates": [],
+        "description": "The flavourful Collagen Powder Zero contains 0% fat. Instead, it contains valuable vitamin C, an exciting amino acid profile, essential amino acids and a lot of collagen hydrolysate - over 80%! The collagen hydrolysate is sourced from cattle and is of the highest quality.\n\nRecommended use:\n\n\n\tAdd 12 g powder and 300 ml water to a shaker and shake for 20 seconds. \n\n\nNote:\n\n\n\tMay contain traces of egg, gluten, lupine, milk and soy.",
+        "attributes": [
+            {
+                "name": "Manufacturer",
+                "value": "ironMaxx"
+            },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Powder"
+            }
+        ],
+        "category": "collagen",
+        "id": "IM-41866"
+    },
+    {
+        "link": "https://www.vitalabo.com/sanacare/sanacollagen",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/21639_ba0ed357.1024x1024.jpg"],
+        "price": 57.46,
+        "productTitle": "SanaCollagen, 120 capsules",
+        "features": ["With L-lysine & L-glycine", "Vegan"],
+        "certificates": [
             {
                 "certificateText": "Vegan",
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/62227_4a50dac1.png"
@@ -1390,43 +1327,44 @@
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
             }
         ],
-        "description": "This vanilla-flavoured vegan protein powder contains all the essential components for collagen formation. Each serving provides 11 g of protein from a total of 21 different broad-spectrum amino acids.\n\nRecommended use:\n\n\n\tMix 14 g (1 scoop) in sufficient liquid.\n\tCan be added directly to food.",
+        "description": "Collagen - activated with L-lysine, L-glycine, magnesium carbonate, L-proline and hyaluronic acid.\n\nRecommended use:\n\n\n\tTake 1 capsule daily with sufficient liquid.\n\n\nPlease note: \n\n\n\tStore cool and dark\n\tKeep out of reach of children\n\tDo not exceed the recommended daily dose",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "Igennus"
+                "value": "SanaCare"
             },
             {
                 "name": "Pharmaceutical form",
-                "value": "Powder"
+                "value": "Capsule"
+            },
+            {
+                "name": "Diets & Dietary Restrictions",
+                "value": "Vegan,     Vegetarian"
             },
             {
                 "name": "Allergens",
-                "value": "Gluten-free,     Shellfish-Free,     Egg-free,     Fish-free,     Peanut-Free,     Soy free,     Lactose-free"
+                "value": "Gluten-free,     Lactose-free"
             },
             {
                 "name": "Product Features",
-                "value": "Halal,     No Synthetic Additives,     Vegan,     Vegetarian,     Wheat-Free,     NO Added Sugar"
+                "value": "No Synthetic Additives,     Vegan,     Vegetarian"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "SC-401420"
     },
     {
-        "link": "https://www.vitalabo.com/biobene/collagen-complex",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/58068_bd37b158.1024x1024.jpg"],
-        "price": 49.54,
-        "productTitle": "Collagen Complex, 28 packages",
-        "features": ["Practically dosed sachets", "With copper and biotin", "Fruity taste"],
+        "link": "https://www.vitalabo.com/burgerstein/collagen-powder",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/84948_db42da81.1024x1024.png"],
+        "price": 24.76,
+        "productTitle": "Collagen Powder, 110 g",
+        "features": ["100 % bioactive collagen peptides", "Neutral-flavoured powder", "Low daily dose"],
         "certificates": [
             {
                 "certificateText": "Fructose-Free",
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64863_a4be81ac.png"
             },
             {
-                "certificateText": "Free From Sugar",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/62229_dc319699.png"
-            },
-            {
                 "certificateText": "Gluten-free",
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
             },
@@ -1435,271 +1373,61 @@
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
             }
         ],
-        "description": "The BIOBENE® Collagen Complex contains an optimally balanced composition of collagen peptides, biotin, vitamin C, copper and other valuable ingredients. The total of 7 active vital substances forms a high-quality product that is made completely without sugar.\n\nBenefits of the BIOBENE® Collagen Complex:\n\n\n\tCopper contributes to the maintenance of normal connective tissue\n\tVitamin C contributes to normal collagen formation for normal skin function\n\tBiotin contributes to the maintenance of normal skin\n\n\n\nMade without...\n\n\n\t... lactose or milk components\n\t... yeast, iodine or gluten\n\n\nRecommended use:\n\n\n\tDissolve 1 sachet daily in approx. 200 ml of water and take over a period of at least 4 weeks.",
+        "description": "It plays an important role as a fibre component of the skin, bones, tendons, and cartilage.\n\n\n\tThis flavourless powder is easy to dissolve in water, tea, or juice.\n\n\nRecommended use:\n\n\n\tTake 1 level tablespoon daily\n\tCan be dissolved in liquid",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "BIOBENE"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Powder,     Sticks"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Sugar-Free"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "Fructose-Free,     Yeast-free,     Free From Sugar"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/medex/collagen-flex-powder",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/70683_7cdae708.1024x1024.jpg"],
-        "price": 34.67,
-        "productTitle": "Collagen Flex + Powder, 110 g",
-        "features": [
-            "A patented form of hydrolysed, native collagen",
-            "With hyaluronic acid, silicon & vitamins",
-            "Without added sugar or sweeteners"
-        ],
-        "certificates": [
-            {
-                "certificateText": "Free From Sugar",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/62229_dc319699.png"
-            }
-        ],
-        "description": "Collagen Flex + Powder is based on a patented formula of hydrolysed native collagen. The powder also contains hyaluronic acid, silicon and vitamins. Sugar and other sweeteners have been completely omitted. The powder is especially recommended for older or overweight people or all those who put a lot of strain on their joints and spine during sports or everyday work.\n\nRecommended intake:\nRecommended daily dose 1 measuring cup (5.5 g). Dissolve the powder in 1.5 dl of water and drink. Regular use over at least 12 weeks is recommended by the manufacturer. Suitable for continuous daily use. The powder is recommended on an empty stomach.\n\nAdvice:\n\n\n\tUse is not recommended for people who are allergic to any of the ingredients.\n\tStore in a dark and dry place at a temperature of up to 25 ° C and use within 2 months after first opening.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Medex"
+                "value": "Burgerstein"
             },
             {
                 "name": "Pharmaceutical form",
                 "value": "Powder"
             },
             {
-                "name": "Product Features",
-                "value": "Free From Sugar,     Reduced Plastic"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/pure/chondro-aktiv",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/73456_a2116ad0.1024x1024.jpg"],
-        "price": 111.96,
-        "productTitle": "Chondro Aktiv, 120 capsules",
-        "features": ["Ideal for athletes", "Contains UC-II® collagen", "With vitamins & trace elements"],
-        "certificates": [
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "In addition to valuable vitamins and trace elements, the Chondro Aktiv capsules also contain plant-based ingredients such as black pepper and curcuma. The UC-II® collagen in the capsules is patented and extremely valuable. \n\nThe capsules are particularly interesting for athletes. \n\nRecommended use:\n\n\n\tTake 2 x 1 capsule per day with meals.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Pure Encapsulations"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Capsule"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Gluten-Free,     Lactose-Free"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/natural-point/evidol-articolazioni",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/102272_2a455df3.1024x1024.png"],
-        "price": 36.65,
-        "productTitle": "Evidol Articolazioni, 30 packages",
-        "features": ["Based on vitamin C", "Convenient serving sizes in sachets", "With natural flavour"],
-        "certificates": [
-            {
-                "certificateText": "Free From Sugar",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/62229_dc319699.png"
-            },
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "This food supplement is high in vitamin C which contributes to normal collagen formation for normal cartilage function. MSM, chondroitin sulphate and glucosamine support this function.\n\nRecommended dose:\nTake 1 sachet daily between meals. Dissolve the contents of the sachet in about 200 ml water and drink.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Natural Point"
-            },
-            {
-                "name": "Vitamins",
-                "value": "Vitamin C"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Gluten-Free,     Lactose-Free"
-            },
-            {
                 "name": "Allergens",
                 "value": "Gluten-free,     Lactose-free"
             },
             {
                 "name": "Product Features",
-                "value": "Free From Sugar"
+                "value": "Fructose-Free,     GMO-Free,     Yeast-free,     No Synthetic Additives"
             },
             {
                 "name": "Storage Advice",
-                "value": "Store in a cool, dry place away from light"
+                "value": "Store at room temperature"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "BUR-5814279"
     },
     {
-        "link": "https://www.vitalabo.com/nu3/collagen-beauty-elixier",
-        "uniqueImages": [
-            "https://va.nice-cdn.com/upload/image/product/large/default/99363_40139e7d.1024x1024.png",
-            "https://va.nice-cdn.com/upload/image/product/large/default/99366_e02f961e.1024x1024.png",
-            "https://va.nice-cdn.com/upload/image/product/large/default/99369_d746e41e.1024x1024.png"
-        ],
-        "price": 59.94,
-        "productTitle": "Collagen Beauty Elixier, 28 ampoules",
-        "features": ["With innovative bi-phase complex", "Free from sugar substitutes & gluten", "Contains zinc, selenium & biotin"],
-        "certificates": [
-            {
-                "certificateText": "Gluten-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
-            },
-            {
-                "certificateText": "Lactose-free",
-                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
-            }
-        ],
-        "description": "The practical drink ampoules by nu3 contain high-quality Collagen Beauty Elixir - your new secret weapon for beautiful glowing skin. The marine collagen is particularly easy to absorb thanks to hydrolysis. The innovative formula is ideally complemented with selenium, vitamin E, biotin and zinc. It contains vitamin C that contributes to normal collagen formation for normal skin function. The 2-phase complex protects the nutrients until consumption and has a fresh, fruity raspberry and cherry flavour.\n\nRecommended dose:\n\n\n\tDrink one ampoule in the morning with breakfast\n\tTwist the cap to release the powder and shake the ampoule vigorously to dissolve the powder in the liquid.",
+        "link": "https://www.vitalabo.com/futunatura/flex-collagen",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/90409_1df3ac2d.1024x1024.webp"],
+        "price": 21.79,
+        "productTitle": "Flex Collagen, 231,80 g",
+        "features": ["Hydrolysed collagen & type II collagen", "With MSM, vitamin C, magnesium & manganese", "Fruity lemon taste"],
+        "certificates": [],
+        "description": "Flex Collagen contains a carefully selected and synergistic combination of ingredients:\n\n\n\tHydrolysed collagen, which is broken down into smaller particles (peptides) through a special process, which allow the body to absorb it more easily\n\tType II collagen, which is found in cartilage, joints, and interstitial fluid\n\tMSM (methyl sulfonyl methane), also known as a beauty mineral because it is present in the skin and is also an essential component in the production of collagen and connective tissue\n\tVitamin C, Magnesium and Manganese\n\n\nConsumption recommendation:\n2 drinks daily. For a drink, mix 1 measuring spoon of powder (approx. 7.7g) in 250ml of water.",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "nu3"
+                "value": "FutuNatura"
             },
             {
                 "name": "Pharmaceutical form",
-                "value": "Powder,     Liquid"
-            },
-            {
-                "name": "Use:",
-                "value": "In the Morning"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Gluten-Free,     Lactose-Free"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free,     Lactose-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "Aspartame-free,     NO Added Sugar"
-            },
-            {
-                "name": "Storage Advice",
-                "value": "Store in a cool, dry place away from light"
+                "value": "Powder"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "NARA-FN130"
     },
     {
-        "link": "https://www.vitalabo.com/dr-weyrauch/nr-30-constructor-for-humans",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/70672_f52a607a.1024x1024.png"],
-        "price": 58.95,
-        "productTitle": "Nr. 30 Constructor (for Humans), 180 capsules",
-        "features": ["With plant-based hyaluron", "Optimised with vitamin C", "In a red wine-rosehip melange"],
+        "link": "https://www.vitalabo.com/optima-naturals/collagene-marino-idrolizzato",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/24204_ad245994.1024x1024.jpg"],
+        "price": 52.01,
+        "productTitle": "Collagene Marino Idrolizzato, 500 ml",
+        "features": ["A high dose of 5000 mg of collagen per portion", "With hyaluronic acid", "Orange flavour"],
         "certificates": [],
-        "description": "No. 30 Constructor (Human) contains a coordinated complex of collagen hydrolysate, chondroitin sulphate and hyaluron in a red wine, grape seed & rosehip melange and has been optimised with vitamin C.\n\n\n\tCollagen hydrolysate from beef\n\tChondroitin sulphate from beef\n\tHyaluronic acid from plant origin as sodium hyaluronate\n\n\nRecommended intake:\n2 to 4 capsules per day. Consume with plenty of liquid after or with food.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "dr. WEYRAUCH"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Capsule"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/medex/collagen-flex-curcumin-capsules",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/70873_26146d3a.1024x1024.jpg"],
-        "price": 34.67,
-        "productTitle": "Collagen Flex Curcumin Capsules, 40 capsules",
-        "features": ["Patented collagen form", "With turmeric & hyaluronic acid", "Also contains silicon & vitamins"],
-        "certificates": [],
-        "description": "In addition to the encapsulated turmeric extract CAVACURMIN®, the collagen flex curcumin capsules also contain hyaluronic acid, silicon and vitamins (C & D).\n\nRecommended consumption:\nThe recommended daily dose is two capsules. Swallow the capsules with sufficient water. Enjoy Collagen Flex Curcumin on an empty stomach.\n\nNotes:\n\n\n\tIf signs of hypersensitivity occur, you should stop using the product.\n\tStore in a dark and dry place up to 25 °C.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Medex"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Capsule"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/optima-naturals/collagene-marino-pro",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/57703_71dbb6aa.1024x1024.jpg"],
-        "price": 73.81,
-        "productTitle": "Collagene Marino PRO, 600 ml",
-        "features": ["Orange flavour", "Made with collagen from fish", "Complex, synergistic formula"],
-        "certificates": [],
-        "description": "In addition to providing liquid collagen from fish, the Collagene Marino PRO also contains many valuable amino acids. Hyaluronic acid, vitamins C, E and B6 are also included in the product.\n\nRecommended use:\n\n\n\tTake 1 vial per day after eating.\n\n\nNote:\n\n\n\t12 bottles at 50 ml are included in delivery.",
-        "attributes": [
-            {
-                "name": "Manufacturer",
-                "value": "Optima Naturals"
-            },
-            {
-                "name": "Pharmaceutical form",
-                "value": "Liquid,     Care & Cosmetics"
-            }
-        ],
-        "category": "collagen"
-    },
-    {
-        "link": "https://www.vitalabo.com/optima-naturals/collagene-marino-beauty-box-in-out",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/57944_71f3c04a.1024x1024.jpg"],
-        "price": 79.82,
-        "productTitle": "Collagene Marino Beauty Box In & Out, 10,000 mg",
-        "features": ["Synergistic formula", "Made with fish collagen", "Ready to drink immediately"],
-        "certificates": [],
-        "description": "Hyaluronic acid and vitamins E, C and B6 make the Collagene Marino Beauty Box In & Out an absolute must-have! The box includes 1 x Hydrolised Marine Collagen Liquid and 1 x Marine Collagen Facial Serum. The impressive, synergistic formula of the Marine Collage has a nice orange flavour. The Marine Collagen Facial Serum contains green tea extract (perfect for cases of acne) and cooling aloe vera. \n\n\n\tThe collagen used for the products comes from fish. \n\n\nRecommended use: Hydrolised Marine Collagen: \n\n\n\tTake 25 ml between meals each day. \n\n\nRecommended use: Marine Collagen Facial Serum\n\n\n\tMassage the serum onto your face after cleansing. Use circular movements to massage the serum into your face, neck and décolleté. \n\n\nNotes: after opening the Hydrolised Marine Collagen, store it in the refrigerator and drink within a month.",
+        "description": "Collagene Marino is a high-quality food supplement that provides 5,000mg of collagen hydrolysate per daily dose.\n\nRecommended use:\n\n\n\tTake 25 ml daily, preferably between meals.\n\tAfter opening store in the refrigerator\n\tUse the open product within one month",
         "attributes": [
             {
                 "name": "Manufacturer",
@@ -1710,67 +1438,95 @@
                 "value": "Liquid"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "XEC-OTN-CLGI01001"
     },
     {
-        "link": "https://www.vitalabo.com/vertebene/intensive-program",
-        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/25481_6af56ab1.1024x1024.jpg"],
-        "price": null,
-        "productTitle": "Intensive Program",
-        "features": ["1x BS capsules (120 capsules)", "1x back oil", "1x training DVD", "1x instruction booklet"],
+        "link": "https://www.vitalabo.com/sensilab/undo-nutrishine",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/59704_4a9ab942.1024x1024.jpg"],
+        "price": 13.47,
+        "productTitle": "UNDO Nutrishine, 30 capsules",
+        "features": ["Contains creatine & zinc", "For the hair and nails", "For healthy looking skin"],
         "certificates": [],
-        "description": "The vertical intensive program is a 6 week training program and includes the following:\n\n\n\t1x the 120 pcs. Pack of BS capsules\n\t1x back oil\n\t1x training DVD\n\t1x instruction booklet\n\n\nBS - capsules from verteben:\n\n\n\tThey contain, among other things, valuable bamboo extract and vitamin C. The product developed by experts is subjected to regular controls by certified test centers in Austria and Germany.\n\tRecommended dosage: take 2-3 capsules daily (2x1 or 3x1) with or after a meal with plenty of liquid.\n\n\nBack oil from vertebrae:\n\n\n\tIt is based on St. John's wort extract and contains additional olive oil, essential oils and cedar oil.\n\tApplication: Massage the back gently and evenly with the oil. Only for external use! Avoid eye contact.\n\n\nTraining DVD & instruction booklet:\n\n\n\tThe training program was put together in such a way that 2 training units of 35 minutes each per week should be implemented.",
+        "description": "The UNDO Nutrishine is equally dedicated to your hair and nails and is a perfectly matched 2 in 1 product. The recipe includes high-quality ingredients like creatine and zinc.\n\nRecommended use:\n\n\n\tTake 1 capsule per day, after meals with plenty of water. \n\n\nNotes:\n\n\n\tWomen who are breastfeeding should not use this supplement\n\tDo not store below 25 ° C",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "vertebene"
+                "value": "Sensilab"
             },
             {
                 "name": "Pharmaceutical form",
-                "value": "Capsule,     Oil"
+                "value": "Capsule"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "SL-990010"
     },
     {
-        "link": "https://www.vitalabo.com/natures-plus/collagen-peptides-1",
-        "uniqueImages": [
-            "https://va.nice-cdn.com/upload/image/product/large/default/61844_bf215c00.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/61845_1807da1a.1024x1024.jpg",
-            "https://va.nice-cdn.com/upload/image/product/large/default/61846_f7825000.1024x1024.jpg"
-        ],
-        "price": 38.64,
-        "productTitle": "Collagen Peptides, 294 g",
-        "features": ["6 different types of collagen", "Sustainably obtained raw materials", "With an enzyme mixture"],
+        "link": "https://www.vitalabo.com/ironmaxx/collagen-professional-liquid-1000ml",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/66468_f720002e.1024x1024.jpg"],
+        "price": 29.72,
+        "productTitle": "Collagen + Vitamin C Liquid, 1.000 ml",
+        "features": ["Liquid facelift", "Mirabelle taste", "1000ml concentrate"],
         "certificates": [
             {
                 "certificateText": "Gluten-free",
                 "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64864_682b78f4.png"
+            },
+            {
+                "certificateText": "Lactose-free",
+                "imageSrc": "https://va.nice-cdn.com/upload/image/articleattributeitem_logo/medium/default/64866_a1d4cb00.png"
             }
         ],
-        "description": "Collagen Peptides is made with hydrolysed, predigested collagen from beef, chicken, fish and eggshell protein. The powder also contains an enzyme mix of protease and serrapeptase.\n\n\n\tTypes of collagen included: Type I-II-III-IV-V and X\n\tGrass-fed beef, wild-caught cod, cage-free chicken and eggshell membranes\n\n\nRecommended use:\n\n\n\tDissolve 1 scoop (10.5 g) or 2 scoops (21 g) in water or juice. The powder can be added to cold or hot liquids, or a recipe of your choice.\n\n\nNote:\n\n\n\tCollagen Peptides is made from animal raw materials and is not suitable for vegetarians.",
+        "description": "The youth elixir!\n\nCollagen + Vitamin C Liquid has a delicious taste of ripe, juicy mirabelle plums so that every sip becomes a taste experience.\n\n\n\tIt supplies pre-split, collagen protein chains (hydrolysate) with a high biological value, which can be used more quickly and completely by the body.\n\tAs a liquid, the supply of collagen is therefore also more effective in the long term than collagen creams or lotions.\n\tAnd that without sugar and free of any allergens.\n\n\nConsumption recommendation:\nTake 25ml Collagen Liquid daily. Shake well before drinking.",
         "attributes": [
             {
                 "name": "Manufacturer",
-                "value": "NaturesPlus"
+                "value": "ironMaxx"
+            },
+            {
+                "name": "Pharmaceutical form",
+                "value": "Liquid"
+            },
+            {
+                "name": "Diets & Dietary Restrictions",
+                "value": "Low Carb"
+            },
+            {
+                "name": "Allergens",
+                "value": "Gluten-free,     Lactose-free"
+            },
+            {
+                "name": "Product Features",
+                "value": "Aspartame-free,     Yeast-free"
+            }
+        ],
+        "category": "collagen",
+        "id": "IM-40586"
+    },
+    {
+        "link": "https://www.vitalabo.com/futunatura/beauty-collagen",
+        "uniqueImages": ["https://va.nice-cdn.com/upload/image/product/large/default/90410_683f36cc.1024x1024.webp"],
+        "price": 21.79,
+        "productTitle": "Beauty Collagen, 239,50 g",
+        "features": [
+            "A carefully selected combination of ingredients",
+            "Contains hydrolysed collagen",
+            "With the patented Verisol® collagen"
+        ],
+        "certificates": [],
+        "description": "The beverage powder consists of a carefully selected combination of ingredients to support the skin and hair:\n\n\n\tHydrolysed collagen, which is broken down into smaller particles (peptides) using a special process\n\tPatented collagen Verisol®, which was specially developed for the needs of skin, hair and nails\n\tHyaluronic acid, which is naturally present in the skin and has an exceptional water retention capacity\n\tMSM (methylsulfonylmethane) also known as a beauty mineral that occurs naturally in the skin\n\tBiotin and vitamin C.\n\tSweetened with stevia\n\tWith a natural forest fruit aroma\n\n\nConsumption recommendation:\n2 drinks daily. For a drink, mix 1 measuring spoon of powder (approx. 8.4g) in 250ml of water.",
+        "attributes": [
+            {
+                "name": "Manufacturer",
+                "value": "FutuNatura"
             },
             {
                 "name": "Pharmaceutical form",
                 "value": "Powder"
-            },
-            {
-                "name": "Diets & Dietary Restrictions",
-                "value": "Gluten-Free"
-            },
-            {
-                "name": "Allergens",
-                "value": "Gluten-free"
-            },
-            {
-                "name": "Product Features",
-                "value": "GMO-Free"
             }
         ],
-        "category": "collagen"
+        "category": "collagen",
+        "id": "NARA-FN131"
     }
 ]

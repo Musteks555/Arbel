@@ -1,3 +1,7 @@
+.page {
+    padding-bottom: 8px;
+}
+
 .title {
     margin-bottom: 40px;
 }
@@ -8,4 +12,16 @@
 
 .text:last-child {
     margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .page {
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .page {
+        padding-bottom: 32px;
+    }
 }

@@ -1,7 +1,7 @@
 .navigationContainer {
     overflow: hidden;
 
-    padding: 8px 0;
+    padding: 8px 0 0;
 }
 
 .navigationList {
@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 768px) {
     .navigationContainer {
-        padding: 16px 0;
+        padding: 16px 0 0;
     }
 
     .navigationList {
@@ -98,7 +98,7 @@
 
 @media screen and (min-width: 1440px) {
     .navigationContainer {
-        padding: 32px 0;
+        padding: 32px 0 0;
     }
 
     .navigationList {

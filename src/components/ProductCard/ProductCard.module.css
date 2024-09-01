@@ -19,6 +19,17 @@
     border-radius: 8px;
 
     position: relative;
+
+    background: #fff;
+
+    cursor: pointer;
+
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.productCardBtn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 
 .productCardBtnContainer {
@@ -63,6 +74,26 @@
 .productCardPrice {
     font-weight: bold;
     font-size: 22px;
+}
+
+.spinner {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #082518;
+    border-radius: 50%;
+
+    width: 24px;
+    height: 24px;
+
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (min-width: 768px) {

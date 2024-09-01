@@ -1,0 +1,326 @@
+.basket {
+    padding: 8px 0;
+}
+
+.basketTitle {
+    font-size: 20px;
+
+    margin-bottom: 32px;
+}
+
+.basketTitleText {
+    font-weight: 400;
+}
+
+.basketTitlePrice {
+    font-weight: 600;
+}
+
+.basketProductList {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.basketProductItem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 8px;
+
+    padding-bottom: 8px;
+
+    border-bottom: 1px solid #082518c9;
+}
+
+.basketProductItem:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.basketProductItemImgLink {
+    width: calc(35% - 8px);
+}
+
+.basketProductItemInfoContainer {
+    width: calc(65% - 8px);
+}
+
+.basketProductItemImg {
+    width: 100%;
+}
+
+.basketProductItemTitleLink {
+    display: block;
+    width: fit-content;
+}
+
+.basketProductItemName {
+    font-size: 16px;
+}
+
+.basketProductItemPrice {
+    margin-top: 16px;
+}
+
+.basketProductItemQuantityContainer {
+    display: flex;
+    align-items: stretch;
+
+    gap: 8px;
+
+    margin: 16px 0;
+}
+
+.basketProductItemQuantityBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #e8e8e8;
+
+    margin: 0;
+    padding: 16px;
+
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.basketProductItemQuantityBtn:hover {
+    background-color: #d6d6d6;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.basketProductItemQuantityInput {
+    text-align: center;
+    font-size: 16px;
+
+    width: 100%;
+    max-width: 60px;
+
+    border: 1px solid #082518c9;
+    border-radius: 8px;
+
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+.basketProductItemQuantityInput::-webkit-inner-spin-button,
+.basketProductItemQuantityInput::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.basketProductItemSum {
+    font-weight: 600;
+}
+
+.basketProductItemRemoveBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    border: none;
+    background-color: inherit;
+
+    margin: 16px 0;
+    padding: 0;
+
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.basketProductBuyForm {
+    padding: 16px;
+
+    border: 1px solid #082518c9;
+    border-radius: 16px;
+
+    margin-top: 24px;
+
+    height: fit-content;
+}
+
+.basketProductBuyTitle {
+    margin-bottom: 16px;
+}
+
+.basketProductBuyText {
+    margin-bottom: 16px;
+}
+
+.basketProductBuyTotalPrice {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.basketProductBuyLabel {
+    font-size: 13px;
+}
+
+.basketProductBuyInput {
+    display: block;
+
+    margin-bottom: 16px;
+    padding: 8px 16px;
+
+    border-radius: 8px;
+    border: 1px solid #000;
+
+    width: 100%;
+}
+
+.basketProductBuyBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 8px;
+    background-color: #082518c9;
+
+    padding: 8px 16px;
+    margin: 0 auto;
+
+    width: 200px;
+
+    color: #fff;
+    font-size: 16px;
+
+    position: relative;
+}
+
+.basketProductBuyBtn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.basketEmpty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 24px;
+}
+
+.basketEmptyText {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.formError {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .basket {
+        padding: 0 0 16px;
+    }
+
+    .basketTitle {
+        font-size: 24px;
+
+        margin-bottom: 40px;
+    }
+
+    .basketProductList {
+        gap: 24px;
+    }
+
+    .basketProductItem {
+        gap: 24px;
+
+        padding-bottom: 16px;
+    }
+
+    .basketProductItemImgLink {
+        padding: 16px;
+    }
+
+    .basketProductItemName {
+        font-size: 20px;
+    }
+
+    .basketProductItemPrice {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .basketProductItemQuantityContainer {
+        gap: 16px;
+
+        margin: 24px 0;
+    }
+
+    .basketProductItemQuantityBtnIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .basketProductItemQuantityInput {
+        font-size: 20px;
+    }
+
+    .basketProductItemSumText {
+        font-size: 20px;
+    }
+
+    .basketProductItemRemoveBtn {
+        font-size: 16px;
+    }
+
+    .basketEmptyText {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .basket {
+        padding: 0 0 32px;
+    }
+
+    .basketContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .basketProductList {
+        width: calc(70% - 32px);
+    }
+
+    .basketProductBuyForm {
+        width: calc(30% - 32px);
+
+        margin-top: 0;
+
+        position: sticky;
+        top: 32px;
+    }
+
+    .basketEmpty {
+        width: calc(70% - 32px);
+    }
+
+    .basketEmptyIcon {
+        width: 256px;
+        height: 256px;
+    }
+}

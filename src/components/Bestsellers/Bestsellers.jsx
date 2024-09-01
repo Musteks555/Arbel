@@ -1,52 +1,21 @@
 import ProductCard from "../ProductCard/ProductCard";
 
+import VitaminsData from "../../data/vitamins.json";
+import CollagenData from "../../data/collagen.json";
+import HyaluronicAcidData from "../../data/hyaluronic-acid.json";
+import ProbioticsData from "../../data/probiotics.json";
+
 import css from "./Bestsellers.module.css";
 
 const Bestsellers = () => {
-    const productArr = [
-        {
-            name: "  Vitamin D3 1000, 30 ml",
-            img: "https://va.nice-cdn.com/upload/image/product/large/default/nature-love-vitamin-d3-1000-30-ml-1296293-en.png",
-            price: "7,49",
-            advantages: ["Highly dosed", "Only 1 drop daily", "Enough for 1 year"],
-        },
-        {
-            name: "  Vitamin D3 1000, 30 ml",
-            img: "https://va.nice-cdn.com/upload/image/product/large/default/nature-love-vitamin-d3-1000-30-ml-1296293-en.png",
-            price: "7,49",
-            advantages: ["Highly dosed", "Only 1 drop daily", "Enough for 1 year"],
-        },
-        {
-            name: "  Vitamin D3 1000, 30 ml",
-            img: "https://va.nice-cdn.com/upload/image/product/large/default/nature-love-vitamin-d3-1000-30-ml-1296293-en.png",
-            price: "7,49",
-            advantages: ["Highly dosed", "Only 1 drop daily", "Enough for 1 year"],
-        },
-        {
-            name: "  Vitamin D3 1000, 30 ml",
-            img: "https://va.nice-cdn.com/upload/image/product/large/default/nature-love-vitamin-d3-1000-30-ml-1296293-en.png",
-            price: "7,49",
-            advantages: ["Highly dosed", "Only 1 drop daily", "Enough for 1 year"],
-        },
-        {
-            name: "  Vitamin D3 1000, 30 ml",
-            img: "https://va.nice-cdn.com/upload/image/product/large/default/nature-love-vitamin-d3-1000-30-ml-1296293-en.png",
-            price: "7,49",
-            advantages: ["Highly dosed", "Only 1 drop daily", "Enough for 1 year"],
-        },
-        {
-            name: "  Vitamin D3 1000, 30 ml",
-            img: "https://va.nice-cdn.com/upload/image/product/large/default/nature-love-vitamin-d3-1000-30-ml-1296293-en.png",
-            price: "7,49",
-            advantages: ["Highly dosed", "Only 1 drop daily", "Enough for 1 year"],
-        },
-        {
-            name: "  Vitamin D3 1000, 30 ml",
-            img: "https://va.nice-cdn.com/upload/image/product/large/default/nature-love-vitamin-d3-1000-30-ml-1296293-en.png",
-            price: "7,49",
-            advantages: ["Highly dosed", "Only 1 drop daily", "Enough for 1 year"],
-        },
-    ];
+    const allProducts = [...VitaminsData, ...CollagenData, ...HyaluronicAcidData, ...ProbioticsData];
+
+    const getRandomItems = (arr, numItems) => {
+        const shuffled = arr.sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, numItems);
+    };
+
+    const productArr = getRandomItems(allProducts, 10);
 
     return (
         <>
