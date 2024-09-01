@@ -3,6 +3,9 @@
 }
 
 .basketTitle {
+    display: block;
+    width: 100%;
+
     font-size: 20px;
 
     margin-bottom: 32px;
@@ -10,10 +13,6 @@
 
 .basketTitleText {
     font-weight: 400;
-}
-
-.basketTitlePrice {
-    font-weight: 600;
 }
 
 .basketProductList {

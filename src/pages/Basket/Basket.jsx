@@ -100,11 +100,14 @@ const Basket = () => {
                 <Container>
                     <div className={css.basketContainer}>
                         <h1 className={css.basketTitle}>
-                            My Basket:{" "}
-                            <span className={css.basketTitleText}>
-                                {totalQuantity} {totalQuantity > 1 ? "Items" : "Item"}, Grand Total:{" "}
-                            </span>{" "}
-                            <span className={css.basketTitlePrice}>$ {totalPrice.toFixed(2)}</span>
+                            <span className={css.basketTitleText}>My Basket: </span>
+                            <span>
+                                {totalQuantity} {totalQuantity > 1 ? "Items" : "Item"}
+                            </span>
+                            <br />
+                            <br />
+                            <span className={css.basketTitleText}>Grand Total: </span>
+                            <span>$ {totalPrice.toFixed(2)}</span>
                         </h1>
 
                         {items.length > 0 ? (
