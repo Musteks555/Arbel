@@ -14,8 +14,17 @@ const AdditionalAssistance = () => {
 
                     <p className={css.text}>
                         To get in touch with our Customer Service Team, please send an email to:
+                        <br />
                         <a href="mailto:hello@arbelsupplements.com" className={css.link}>
                             hello@arbelsupplements.com
+                        </a>
+                    </p>
+
+                    <p className={css.text}>
+                        Phone:
+                        <br />
+                        <a href="tel:+16474986910" className={css.link}>
+                            +16474986910
                         </a>
                     </p>
 

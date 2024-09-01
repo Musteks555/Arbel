@@ -1,3 +1,4 @@
+import Bestsellers from "../../components/Bestsellers/Bestsellers";
 import Container from "../../components/Container/Container";
 import DocumentTitle from "../../components/DocumentTitle/DocumentTitle";
 
@@ -89,6 +90,8 @@ const WholesaleCustomers = () => {
                             </p>
                         </li>
                     </ul>
+
+                    <Bestsellers />
                 </Container>
             </section>
         </>

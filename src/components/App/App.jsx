@@ -21,7 +21,6 @@ function App() {
             <SharedLayout>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/wholesale" element={<Products page={"Wholesale"} />} />
                     <Route path="/all-products" element={<Products page={"All Products"} />} />
                     <Route path="/vitamins" element={<Products page={"Vitamins"} />} />
                     <Route path="/a-vitamins" element={<Products page={"A-Vitamins"} />} />

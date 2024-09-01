@@ -6,7 +6,7 @@ const WholesaleBtn = () => {
     return (
         <>
             <div className={css.wholesaleBtnContainer}>
-                <Link to={"/wholesale"} className={css.wholesaleBtn}>
+                <Link to={"/wholesale-customers"} className={css.wholesaleBtn}>
                     Wholesale
                 </Link>
             </div>
