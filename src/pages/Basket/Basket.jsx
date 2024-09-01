@@ -191,7 +191,7 @@ const Basket = () => {
                             </p>
 
                             <p className={css.basketProductBuyText}>
-                                Plese, enter your <strong>email</strong> and we will contact you
+                                Please, enter your <strong>email</strong> and we will contact you
                             </p>
 
                             <label className={css.basketProductBuyLabel}>
