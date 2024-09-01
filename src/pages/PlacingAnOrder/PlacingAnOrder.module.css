@@ -1,5 +1,5 @@
 .page {
-    padding-bottom: 8px;
+    padding-bottom: 16px;
 }
 
 .title {
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 768px) {
     .page {
-        padding-bottom: 16px;
+        padding-bottom: 24px;
     }
 }
 
