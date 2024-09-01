@@ -78,7 +78,7 @@ const Basket = () => {
             const response = await axios.post("../../send.php", formData);
 
             if (response.data.status === "success") {
-                toast.success("Successfully submitted!");
+                toast.success("Thank you for your order! Our team will reach out to you shortly during our business hours.");
             } else {
                 toast.error("There was an error submitting your order. Please try again.");
             }
@@ -191,7 +191,7 @@ const Basket = () => {
                             </p>
 
                             <p className={css.basketProductBuyText}>
-                                Enter your <strong>email</strong> and we will contact you
+                                Plese, enter your <strong>email</strong> and we will contact you
                             </p>
 
                             <label className={css.basketProductBuyLabel}>

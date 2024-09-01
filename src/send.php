@@ -1,10 +1,10 @@
 <?php
-$email = $_POST['email'];
-$basketDetails = $_POST['basketDetails'];
-$totalQuantity = $_POST['totalQuantity'];
-$totalPrice = $_POST['totalPrice'];
+$email = htmlspecialchars($_POST['email']);
+$basketDetails = htmlspecialchars($_POST['basketDetails']);
+$totalQuantity = htmlspecialchars($_POST['totalQuantity']);
+$totalPrice = htmlspecialchars($_POST['totalPrice']);
 
-$to = 'your-email@example.com';
+$to = 'Hello@arbelsupplements.com';
 $subject = 'Order Summary from Basket';
 $message = "
 <html>
@@ -24,10 +24,8 @@ $message = "
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-$headers .= 'From: <webmaster@example.com>' . "\r\n"; // Замените на ваш email
-$headers .= 'Reply-To: <webmaster@example.com>' . "\r\n"; // Замените на ваш email
-
+$headers .= 'From: <Hello@arbelsupplements.com>' . "\r\n";
+$headers .= 'Reply-To: <Hello@arbelsupplements.com>' . "\r\n";
 
 if (mail($to, $subject, $message, $headers)) {
     echo json_encode(['status' => 'success']);
