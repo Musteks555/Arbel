@@ -15,8 +15,8 @@ const Contacts = () => {
                     <p className={css.text}>
                         To get in touch with our Customer Service Team, please send an email to:
                         <br />
-                        <a href="mailto:hello@arbelsupplements.com" target="_blank" rel="noreferrer" className={css.link}>
-                            hello@arbelsupplements.com
+                        <a href="mailto:hello@arbel-supplements.com" target="_blank" rel="noreferrer" className={css.link}>
+                            hello@arbel-supplements.com
                         </a>
                     </p>
 

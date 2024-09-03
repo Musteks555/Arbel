@@ -4,7 +4,7 @@ $basketDetails = htmlspecialchars($_POST['basketDetails']);
 $totalQuantity = htmlspecialchars($_POST['totalQuantity']);
 $totalPrice = htmlspecialchars($_POST['totalPrice']);
 
-$to = 'Hello@arbelsupplements.com';
+$to = 'Hello@arbel-supplements.com';
 $subject = 'Order Summary from Basket';
 $message = "
 <html>
@@ -24,8 +24,8 @@ $message = "
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-$headers .= 'From: <Hello@arbelsupplements.com>' . "\r\n";
-$headers .= 'Reply-To: <Hello@arbelsupplements.com>' . "\r\n";
+$headers .= 'From: <Hello@arbel-supplements.com>' . "\r\n";
+$headers .= 'Reply-To: <Hello@arbel-supplements.com>' . "\r\n";
 
 if (mail($to, $subject, $message, $headers)) {
     echo json_encode(['status' => 'success']);
